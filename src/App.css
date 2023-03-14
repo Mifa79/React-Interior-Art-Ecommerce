@@ -38,6 +38,14 @@
   }
 }
 
+h1 {
+  font-family: Montserrat;
+  font-weight: 500;
+  color: #8f8f8f;
+  font-size: 26px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
 
 .navbar {
   font-family: Montserrat;
@@ -51,7 +59,7 @@
 } */
 
 .popular-pick {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .product-image {
   width: 100%;

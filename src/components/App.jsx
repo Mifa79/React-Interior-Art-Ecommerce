@@ -9,6 +9,7 @@ function App() {
       <Navbar></Navbar>
       <HeroBanner></HeroBanner>
       <div className="popular-pick">
+        <h1>POPULAR PICKS</h1>
         <div className="row">
           <ProductCard></ProductCard>
           <ProductCard></ProductCard>
