@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* .carousel-item {
+  height: 100%;
+  width: 100%;
+} */
