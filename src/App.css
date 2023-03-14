@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: grid;
 }
 
 .App-logo {
@@ -48,3 +49,12 @@
   height: 100%;
   width: 100%;
 } */
+
+.popular-pick {
+  padding-top: 50px;
+}
+.product-image {
+  width: 100%;
+}
+
+
