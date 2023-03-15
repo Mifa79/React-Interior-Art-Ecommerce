@@ -2,6 +2,7 @@ import '../App.css';
 import Navbar from './Navbar'
 import HeroBanner from './HeroBanner';
 import ProductCard from './ProductCard';
+import ProductCategory from './ProductCategory';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Navbar></Navbar>
       <HeroBanner></HeroBanner>
       <div className="popular-pick">
-        <h1>POPULAR PICKS</h1>
+        <h2>Popular Picks</h2>
         <div className="row">
           <ProductCard></ProductCard>
           <ProductCard></ProductCard>
@@ -23,6 +24,7 @@ function App() {
           <ProductCard></ProductCard>
         </div>
       </div>
+      <ProductCategory></ProductCategory>
 
 
     </div>
