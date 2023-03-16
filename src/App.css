@@ -82,7 +82,7 @@ h1 {
 
 .category-image-container {
   padding: 0;
-  padding-right: 15px;
+  padding-right: 16px;
 }
 
 .category-image {
@@ -92,13 +92,18 @@ h1 {
 }
 
 .category-image-container {
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 
 .category-info {
   height: 500px;
   background-color: #E3E3E3;
   padding: 160px 160px;
+}
+
+.category-info-container {
+  padding-right: 0px; 
+  padding-left: 16px;
 }
 
 .shop-by-categories-button {
