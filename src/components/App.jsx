@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import HeroBanner from './HeroBanner';
 import ProductCard from './ProductCard';
 import ProductCategory from './ProductCategory';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       </div>
       <ProductCategory></ProductCategory>
       <ProductCategory></ProductCategory>
+      <Footer></Footer>
 
 
     </div>
