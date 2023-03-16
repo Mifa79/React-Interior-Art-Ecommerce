@@ -66,6 +66,8 @@ h1 {
 
 .product-item {
   padding-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .product-image {
   width: 100%;
@@ -74,11 +76,13 @@ h1 {
 .product-category {
   height: 500px;
   padding: 50px 100px;
-  /* display: block; */
+  margin-bottom: 30px;
+
 }
 
 .category-image-container {
-  /* margin: 20px; */
+  padding: 0;
+  padding-right: 15px;
 }
 
 .category-image {
@@ -87,11 +91,14 @@ h1 {
   object-fit: cover;
 }
 
+.category-image-container {
+  padding-left: 15px;
+}
+
 .category-info {
   height: 500px;
   background-color: #E3E3E3;
   padding: 160px 160px;
-  /* margin: 20px; */
 }
 
 .shop-by-categories-button {

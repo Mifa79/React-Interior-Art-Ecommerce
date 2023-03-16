@@ -25,6 +25,7 @@ function App() {
         </div>
       </div>
       <ProductCategory></ProductCategory>
+      <ProductCategory></ProductCategory>
 
 
     </div>
