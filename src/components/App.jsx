@@ -23,6 +23,7 @@ function App() {
           <ProductCard></ProductCard>
           <ProductCard></ProductCard>
         </div>
+        <button class="btn btn-primary view-all-product-button" type="button">VIEW ALL PRODUCTS</button>
       </div>
       <ProductCategory></ProductCategory>
       <ProductCategory></ProductCategory>

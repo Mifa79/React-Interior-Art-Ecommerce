@@ -75,7 +75,7 @@ h1 {
 
 .product-category {
   height: 500px;
-  padding: 50px 100px;
+  padding: 20px 100px;
   margin-bottom: 30px;
 
 }
@@ -109,6 +109,16 @@ h1 {
   font-weight: 600px;
   padding: 10px 30px;
   margin-top: 10px;
+}
+
+.view-all-product-button {
+  background-color: #cd973d;
+  border: none;
+  border-radius: 0;
+  font-family: Montserrat;
+  font-weight: 600px;
+  padding: 10px 120px;
+  margin-top: 80px;
 }
 
 h2 {
