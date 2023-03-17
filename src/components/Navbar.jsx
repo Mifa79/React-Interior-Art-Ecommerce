@@ -14,7 +14,7 @@ function Navbar() {
                             <a className="nav-link active" aria-current="page" href="/">HOME</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/about">ABOUT US</a>
+                            <a className="nav-link" href="/about">ABOUT US</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/allproducts">ALL PRODUCTS</a>
@@ -24,8 +24,8 @@ function Navbar() {
                                 COLLECTIONS
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Signature Collection</a></li>
-                                <li><a className="dropdown-item" href="#">Poster Collection</a></li>
+                                <li><a className="dropdown-item" href="/signaturecollection">Signature Collection</a></li>
+                                <li><a className="dropdown-item" href="postercollection">Poster Collection</a></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="#">Something else here</a></li>
                             </ul>
