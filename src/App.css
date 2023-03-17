@@ -55,10 +55,9 @@ h1 {
   padding: 0 100px;
 }
 
-/* .carousel-item {
-  height: 100%;
-  width: 100%;
-} */
+.homepage {
+  display: grid;
+}
 
 .popular-pick {
   padding: 80px 100px;

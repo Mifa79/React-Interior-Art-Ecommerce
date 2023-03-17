@@ -1,9 +1,12 @@
 import React from "react";
+import HeroBanner from './HeroBanner';
+import ProductCard from './ProductCard';
+import ProductCategory from './ProductCategory';
+import Footer from './Footer';
 
 function Home() {
     return (
-        <div>
-            <Navbar></Navbar>
+        <div className="homepage">
             <HeroBanner></HeroBanner>
             <div className="popular-pick">
                 <h2>Popular Picks</h2>

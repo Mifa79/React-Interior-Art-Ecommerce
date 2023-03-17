@@ -1,36 +1,31 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 import '../App.css';
-import Navbar from './Navbar'
-import HeroBanner from './HeroBanner';
-import ProductCard from './ProductCard';
-import ProductCategory from './ProductCategory';
-import Footer from './Footer';
+import Navbar from './Navbar';
+import Home from "./Home";
+import About from "./About";
+import AllProducts from "./AllProducts";
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <HeroBanner></HeroBanner>
-      <div className="popular-pick">
-        <h2>Popular Picks</h2>
-        <div className="row">
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-        </div>
-        <div className="row">
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-          <ProductCard></ProductCard>
-        </div>
-        <button class="btn btn-primary view-all-product-button" type="button">VIEW ALL PRODUCTS</button>
-      </div>
-      <ProductCategory></ProductCategory>
-      <ProductCategory></ProductCategory>
-      <Footer></Footer>
-
-
+      <Router>
+        <Navbar></Navbar>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/allproducts" element={<AllProducts />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
