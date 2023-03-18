@@ -132,12 +132,16 @@ p {
 .category-info {
   height: 500px;
   background-color: #E3E3E3;
-  padding: 160px 160px;
+  padding: 130px 160px;
 }
 
 .category-info-container {
   padding-right: 0px; 
   padding-left: 16px;
+}
+
+.category-description {
+  margin-top: 30px;
 }
 
 .shop-by-categories-button {
@@ -147,8 +151,8 @@ p {
   font-family: Outfit;
   font-weight: 300;
   letter-spacing: 2px;
-  padding: 10px 30px;
-  margin-top: 10px;
+  padding: 10px 40px;
+  margin-top: 8px;
 }
 
 .view-all-product-button {
@@ -159,7 +163,7 @@ p {
   font-weight: 300;
   letter-spacing: 2px;
   padding: 10px 120px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 
