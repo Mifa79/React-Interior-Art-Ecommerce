@@ -94,6 +94,19 @@ p {
   width: 100%;
 }
 
+.item-name {
+  font: Outfit;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.item-category {
+  font: Outfit;
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
 .product-category {
   height: 500px;
   padding: 20px 100px;

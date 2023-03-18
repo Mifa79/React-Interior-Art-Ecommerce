@@ -31,6 +31,8 @@ function ProductCard() {
     return (
         <div className="product-item col-lg-3 col-md-4 col-sm-6">
             <ImageChangeOnMouseOver />
+            <p className="item-name">The Flowers Beds - Claude Monet</p>
+            <p className="item-category">Signature Collection</p>
         </div>
     );
 }
