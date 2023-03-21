@@ -1,0 +1,68 @@
+const products = [
+    {
+        id: 1,
+        name: "The flower beds",
+        artist: "Claude Monet",
+        imgURL: "",
+        pricing: "$25",
+        collection: "Signature Collection",
+    },
+    {
+        id: 2,
+        name: "Cafe Terrace at Night",
+        artist: "Vincent Van Gogh",
+        imgURL: "",
+        pricing: "$25",
+        collection: "Signature Collection",
+    },
+    {
+        id: 3,
+        name: "Pink Sky",
+        artist: "Watanabe Seitei",
+        imgURL: "",
+        pricing: "$25",
+        collection: "Signature Collection",
+    },
+    {
+        id: 4,
+        name: "Green Wheat Fields",
+        artist: "Vincent Van Gogh",
+        imgURL: "",
+        pricing: "$25",
+        collection: "Signature Collection",
+    },
+    {
+        id: 5,
+        name: "Floral Vintage",
+        artist: "South End Art Exhibition",
+        imgURL: "",
+        pricing: "$25",
+        collection: "Poster Collection",
+    },
+    {
+        id: 6,
+        name: "The Harbinger of Autumn",
+        artist: "Paul Klee",
+        imgURL: "",
+        pricing: "$25",
+        collection: "Poster Collection",
+    },
+    {
+        id: 7,
+        name: "Succulent Vintage",
+        artist: "South End Art Exhibition",
+        imgURL: "",
+        pricing: "$25",
+        collection: "Poster Collection",
+    },
+    {
+        id: 8,
+        name: "Abstract Gold and Blue",
+        artist: "South End Art Exhibition",
+        imgURL: "",
+        pricing: "$25",
+        collection: "Poster Collection",
+    },
+];
+
+export default products;
