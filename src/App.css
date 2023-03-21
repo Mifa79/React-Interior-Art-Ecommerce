@@ -77,6 +77,13 @@ p {
   margin: 0 10px;
 }
 
+.dropdown-item {
+  font-family: Outfit;
+  font-size: 15px;
+  letter-spacing: normal;
+  color: #495057;
+}
+
 .homepage {
   display: grid;
 }
