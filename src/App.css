@@ -50,7 +50,21 @@ h1 {
 
 h2 {
   font-family: Outfit;
-  padding-bottom: 0px;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: Outfit;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: Outfit;
+  font-weight: 300;
+}
+
+h5 {
+  font-family: Outfit;
   font-weight: 300;
 }
 
@@ -220,7 +234,30 @@ p {
   background-color: #5d5d5d;
 }
 
-.product-description {
+.product-name-artist {
+  margin-bottom: 30px;
+}
+
+.product-infos {
   text-align: left;
   padding: 0px 50px;
+}
+
+.add-to-cart-button {
+  background-color: #cd973d;
+  border: none;
+  border-radius: 0;
+  font-family: Outfit;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 10px 60px;
+  margin-top: 8px;
+}
+
+.pricing-value {
+  margin: 20px 0;
+}
+
+.product-description {
+  margin: 30px 0;
 }

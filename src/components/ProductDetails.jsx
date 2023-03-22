@@ -1,4 +1,5 @@
 import React from "react";
+import ImageSizeSelection from "./ImageSizeSelection";
 import ProductImage from "../assets/images/product_1.webp";
 import InRoomImage from "../assets/images/product_1_hover.webp";
 
@@ -27,10 +28,14 @@ function ProductDetails() {
                 </div>
 
             </div>
-            <div className="col-6 product-description">
-                <h3>Product Name</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+            <div className="col-6 product-infos">
+                <h3 className="product-name-artist">Cafe Terrace at Night - Vincent Van Gogh</h3>
+                <h5>Size</h5>
+                <ImageSizeSelection></ImageSizeSelection>
+                <h4 className="pricing-value">$25</h4>
+                <button class="btn btn-primary add-to-cart-button" type="button">ADD TO CART</button>
+                <p className="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
             </div>
         </div>
 
