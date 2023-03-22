@@ -19,7 +19,7 @@ function createProductCard(product) {
 function SignatureCollection() {
     const signatureProducts = products.filter(product => product.collection === "Signature Collection");
     return (
-        <div className="signature collection">
+        <div className="signature-collection">
             <h2>Signature Collection</h2>
             <div className="row">
                 {signatureProducts.map(createProductCard)}

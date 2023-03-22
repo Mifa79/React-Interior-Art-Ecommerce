@@ -19,7 +19,7 @@ function createProductCard(product) {
 function PosterCollection() {
     const posterProducts = products.filter(product => product.collection === "Poster Collection");
     return (
-        <div className="poster collection">
+        <div className="poster-collection">
             <h2>Poster Collection</h2>
             <div className="row">
                 {posterProducts.map(createProductCard)}
