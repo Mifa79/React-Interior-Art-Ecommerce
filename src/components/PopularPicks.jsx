@@ -8,7 +8,8 @@ function createProductCard(product) {
             key={product.id}
             name={product.name}
             artist={product.artist}
-            img={product.imgURL}
+            imgURL={product.imgURL}
+            imgHoverURL={product.imgHoverURL}
             pricing={product.pricing}
             collection={product.collection}
         />
