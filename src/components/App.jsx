@@ -14,6 +14,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+import ProductDetails from "./ProductDetails";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/allproducts" element={<AllProducts />} />
           <Route path="/signaturecollection" element={<SignatureCollection />} />
           <Route path="/postercollection" element={<PosterCollection />} />
+          <Route path="/productdetails" element={<ProductDetails />} />
         </Routes>
       </Router>
     </div>

@@ -204,3 +204,23 @@ p {
 .poster-collection {
   padding: 80px 100px;
 }
+
+
+/* --------- Page 4 - Product Details ---------- */
+
+.product-details {
+  padding: 80px 140px;
+}
+
+.carousel-control-prev-icon {
+  background-color: #5d5d5d;
+}
+
+.carousel-control-next-icon {
+  background-color: #5d5d5d;
+}
+
+.product-description {
+  text-align: left;
+  padding: 0px 50px;
+}

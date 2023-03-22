@@ -3,8 +3,8 @@ import HeroImage from "../assets/images/hero.webp";
 
 function HeroBanner() {
     return (
-        <div id="carouselExampleControls" classNameName="carousel-slide" data-bs-ride="carousel">
-            <div classNameName="carousel-inner">
+        <div id="carouselExampleControls" className="carousel-slide" data-bs-ride="carousel">
+            <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={HeroImage} className="d-block w-100" alt="..." />
                 </div>
