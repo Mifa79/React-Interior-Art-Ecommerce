@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function ImageHover(props) {
-    console.log(props);
     const [isHovering, setIsHovering] = useState(false);
 
     const handleMouseOver = () => {
@@ -18,7 +17,7 @@ function ImageHover(props) {
                 <img
                     className="product-image"
                     src={props.imgHoverURL}
-                    alt="Hover Image"
+                    alt="Product displayed in room"
                     onMouseOver={handleMouseOver}
                     onMouseOut={handleMouseOut}
                 />
@@ -26,7 +25,7 @@ function ImageHover(props) {
                 <img
                     className="product-image"
                     src={props.imgURL}
-                    alt="Original Image"
+                    alt="Product Image"
                     onMouseOver={handleMouseOver}
                     onMouseOut={handleMouseOut}
                 />

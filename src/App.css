@@ -58,7 +58,6 @@ p {
   font-family: Outfit;
   font-size: 16px;
   font-weight: 300;
-  /* color: #242424; */
 }
 
 .navbar {
@@ -132,10 +131,6 @@ p {
   object-fit: cover;
 }
 
-.category-image-container {
-  /* padding-left: 15px; */
-}
-
 .category-info {
   height: 500px;
   background-color: #E3E3E3;
@@ -173,8 +168,6 @@ p {
   margin-top: 60px;
 }
 
-
-
 .footer {
   margin-top: 80px;
 }
@@ -195,4 +188,11 @@ p {
   padding-top: 19px;
   font-family: Source Sans Pro;
   font-size: 13px;
+}
+
+
+/* --------- Page 3 - All Products ---------- */
+
+.all-products {
+  padding: 80px 100px;
 }

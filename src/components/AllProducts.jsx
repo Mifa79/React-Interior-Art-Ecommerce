@@ -1,22 +1,29 @@
 import React from "react";
 import ProductCard from './ProductCard';
+import products from "../products";
+
+function createProductCard(product) {
+    return (
+        <ProductCard
+            key={product.id}
+            name={product.name}
+            artist={product.artist}
+            imgURL={product.imgURL}
+            imgHoverURL={product.imgHoverURL}
+            pricing={product.pricing}
+            collection={product.collection}
+        />
+    );
+}
 
 function AllProducts() {
     return (
-        <div>
+        <div className="all-products">
             <h2>All Products</h2>
             <div className="row">
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
+                {products.map(createProductCard)}
             </div>
-            <div className="row">
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-                <ProductCard></ProductCard>
-            </div>
+            
         </div>
     );
 }
