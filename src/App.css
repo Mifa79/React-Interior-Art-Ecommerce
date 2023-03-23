@@ -72,10 +72,21 @@ p {
   font-family: Outfit;
   font-size: 16px;
   font-weight: 300;
+  white-space: pre;
 }
 
 ul {
   font-family: Outfit;
+  font-size: 16px;
+  font-weight: 300;
+  white-space: pre;
+}
+
+li {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 300;
+  white-space: pre;
 }
 
 .navbar {
@@ -227,7 +238,7 @@ ul {
 /* --------- Page 4 - Product Details ---------- */
 
 .product-details {
-  padding: 80px 140px;
+  padding: 80px 160px;
 }
 
 .carousel-control-prev-icon {
@@ -238,9 +249,15 @@ ul {
   background-color: #5d5d5d;
 }
 
-.product-name-artist {
-  font-weight: 500px;
-  margin-bottom: 15px;
+.product-name {
+  font-family: Outfit;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.product-collection-artist {
+  font-weight: 400;
 }
 
 .product-infos {
@@ -249,7 +266,8 @@ ul {
 }
 
 .pricing-value {
-  font-size: 22px;
+  font-size: 24px;
+  margin: 5px 0 20px;
 }
 
 .select-image-size-button {
@@ -257,27 +275,40 @@ ul {
   border-radius: 0;
   border-color: #495057;
   font-family: Outfit;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
-.btn-outline-primary {
+.size-selection-button {
   font-family: Outfit;
   font-size: 16px;
   color: #282c34;
   border-radius: 0;
-  border-color: #495057;
+  border-color: #5d5d5d;
+  background-color: white;
   width: 90px;
   padding: 6px 12px;
   margin-right: 10px;
 }
 
-.btn-outline-primary:focus {
+.btn-check:checked+.size-selection-button {
+  font-family: Outfit;
+  font-size: 16px;
+  color: white;
+  border-radius: 0;
+  border-color: #282c34;
+  background-color: #282c34;
+  width: 90px;
+  padding: 6px 12px;
+  margin-right: 10px;
+}
+
+.btn-check:checked+.size-selection-button:focus {
   color: white;
   border-color: #495057;
   background-color: #5d5d5d;
 }
 
-.btn-outline-primary:active {
+.btn-check:checked+.size-selection-button:active {
   color: white;
   border-color: #495057;
   background-color: #5d5d5d;
@@ -288,9 +319,6 @@ ul {
   border-color: #495057;
   background-color: #5d5d5d;
 }
-/* .size-1 {
-  width: 100px;
-} */
 
 .add-to-cart-button {
   background-color: #cd973d;
@@ -299,12 +327,8 @@ ul {
   font-family: Outfit;
   font-weight: 300;
   letter-spacing: 2px;
-  padding: 10px 42px;
-  margin-bottom: 60px;
-}
-
-.pricing-value {
-  margin: 5px 0 60px;
+  padding: 10px 84px;
+  margin-bottom: 30px;
 }
 
 .product-description {
@@ -338,4 +362,9 @@ ul {
 .icon-sm {
   width: 2rem;
   height: 2rem;
+}
+
+.border-product {
+  margin: 0 0 25px;
+  border-top: 1px solid #efefef;
 }
