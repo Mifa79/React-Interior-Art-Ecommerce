@@ -55,7 +55,7 @@ h2 {
 
 h3 {
   font-family: Outfit;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h4 {
@@ -235,13 +235,53 @@ p {
 }
 
 .product-name-artist {
-  margin-bottom: 30px;
+  font-weight: 500px;
+  margin-bottom: 15px;
 }
 
 .product-infos {
   text-align: left;
   padding: 0px 50px;
 }
+
+.pricing-value {
+  font-size: 22px;
+}
+
+.select-image-size-button {
+  width: 100%;
+  border-radius: 0;
+  border-color: #495057;
+  font-family: Outfit;
+  margin-bottom: 30px;
+}
+
+.btn-outline-primary {
+  font-family: Outfit;
+  font-size: 16px;
+  color: #282c34;
+  border-radius: 0;
+  border-color: #495057;
+  width: 90px;
+  padding: 6px 12px;
+  margin-right: 10px;
+}
+
+.btn-outline-primary:focus {
+  color: white;
+  border-color: #495057;
+  background-color: #5d5d5d;
+}
+
+.btn-outline-primary:active {
+  color: white;
+  border-color: #495057;
+  background-color: #5d5d5d;
+}
+
+/* .size-1 {
+  width: 100px;
+} */
 
 .add-to-cart-button {
   background-color: #cd973d;
@@ -250,12 +290,12 @@ p {
   font-family: Outfit;
   font-weight: 300;
   letter-spacing: 2px;
-  padding: 10px 60px;
+  padding: 10px 42px;
   margin-top: 8px;
 }
 
 .pricing-value {
-  margin: 20px 0;
+  margin: 5px 0 50px;
 }
 
 .product-description {

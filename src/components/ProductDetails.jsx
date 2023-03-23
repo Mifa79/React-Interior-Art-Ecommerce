@@ -30,12 +30,19 @@ function ProductDetails() {
             </div>
             <div className="col-6 product-infos">
                 <h3 className="product-name-artist">Cafe Terrace at Night - Vincent Van Gogh</h3>
-                <h5>Size</h5>
-                <ImageSizeSelection></ImageSizeSelection>
                 <h4 className="pricing-value">$25</h4>
+                <h5 className="select-image-size-title">Select image size:</h5>
+                <ImageSizeSelection></ImageSizeSelection>
                 <button class="btn btn-primary add-to-cart-button" type="button">ADD TO CART</button>
-                <p className="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                
+                <p className="product-description">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aliquam tincidunt mauris eu risus.
+                    Vestibulum auctor dapibus neque.
+                    Nunc dignissim risus id metus.
+                    Cras ornare tristique elit.
+                    Vivamus vestibulum ntulla nec ante.
+                    Praesent placerat risus quis eros.
+                </p>
             </div>
         </div>
 
