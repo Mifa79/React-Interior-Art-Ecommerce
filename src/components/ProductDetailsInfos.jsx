@@ -1,6 +1,7 @@
 import React from "react";
 import ProductDescription from "./ProductDescription";
 import ProductDetailsHeader from "./ProductDetailsHeader";
+import ProductFeatures from "./ProductFeatures";
 import ProductSelectionToCart from "./ProductSelectionToCart";
 
 function ProductDetailsInfos() {
@@ -11,12 +12,7 @@ function ProductDetailsInfos() {
             <ProductSelectionToCart></ProductSelectionToCart>
             <div class="border-product"></div>
             <ProductDescription></ProductDescription>
-            <h5>Features</h5>
-            <ul>
-                <li>Cras ornare tristique elit.</li>
-                <li>Vivamus vestibulum ntulla nec ante.</li>
-                <li>Praesent placerat risus quis eros.</li>
-            </ul>
+            <ProductFeatures></ProductFeatures>
         </div>
     );
 }
