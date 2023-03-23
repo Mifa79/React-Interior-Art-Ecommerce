@@ -12,9 +12,9 @@ function ImageSizeSelection() {
                 <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
                 <label class="btn btn-outline-primary" for="btnradio2">16" x 20"</label>
             </div>
-            <div className="size-2">
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
-                <label class="btn btn-outline-primary" for="btnradio2">24" x 32"</label>
+            <div className="size-3">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
+                <label class="btn btn-outline-primary" for="btnradio3">24" x 32"</label>
             </div>
 
         </div>

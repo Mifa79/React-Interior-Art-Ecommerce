@@ -74,6 +74,10 @@ p {
   font-weight: 300;
 }
 
+ul {
+  font-family: Outfit;
+}
+
 .navbar {
   position: -webkit-sticky;
   position: sticky;
@@ -279,6 +283,11 @@ p {
   background-color: #5d5d5d;
 }
 
+.btn-check:active {
+  color: white;
+  border-color: #495057;
+  background-color: #5d5d5d;
+}
 /* .size-1 {
   width: 100px;
 } */
@@ -291,13 +300,42 @@ p {
   font-weight: 300;
   letter-spacing: 2px;
   padding: 10px 42px;
-  margin-top: 8px;
+  margin-bottom: 60px;
 }
 
 .pricing-value {
-  margin: 5px 0 50px;
+  margin: 5px 0 60px;
 }
 
 .product-description {
-  margin: 30px 0;
+  padding-top: 0;
+}
+
+.add-to-cart-with-quantity {
+  display: flex;
+}
+
+.quantity-field {
+  width: 50px;
+  height: 40px;
+  font-family: Outfit;
+  text-align: center;
+
+}
+
+.quantity-number {
+  vertical-align: middle;
+}
+
+.icon-shape {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.icon-sm {
+  width: 2rem;
+  height: 2rem;
 }
