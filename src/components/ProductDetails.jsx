@@ -3,32 +3,12 @@ import ImageSizeSelection from "./ImageSizeSelection";
 import ProductImage from "../assets/images/product_1.webp";
 import InRoomImage from "../assets/images/product_1_hover.webp";
 import IncreaseDecreaseQuantityButton from "./IncreaseDecreaseQuantityButton";
+import ProductImageCarousel from "./ProductImageCarousel";
 
 function ProductDetails() {
     return (
         <div className="row product-details">
-            <div id="carouselExampleControls" className="carousel-slide col-6" data-bs-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src={ProductImage} className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src={InRoomImage} className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src={InRoomImage} className="d-block w-100" alt="..." />
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div>
-
-            </div>
+            <ProductImageCarousel></ProductImageCarousel>
             <div className="col-4 product-infos">
                 <h3 className="product-name">Cafe Terrace at Night</h3>
                 <p className="product-collection"><i class="fa-sharp fa-solid fa-barcode"></i>   Signature Collection</p>
