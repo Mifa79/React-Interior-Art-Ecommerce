@@ -308,6 +308,12 @@ li {
   background-color: #5d5d5d;
 }
 
+.size-selection-button:hover {
+  color: white;
+  border-color: #cd973d;
+  background-color: #cd973d;
+}
+
 .btn-check:checked+.size-selection-button:active {
   color: white;
   border-color: #495057;
