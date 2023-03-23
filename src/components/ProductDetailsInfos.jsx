@@ -1,4 +1,5 @@
 import React from "react";
+import ProductDescription from "./ProductDescription";
 import ProductDetailsHeader from "./ProductDetailsHeader";
 import ProductSelectionToCart from "./ProductSelectionToCart";
 
@@ -9,13 +10,7 @@ function ProductDetailsInfos() {
             <div class="border-product"></div>
             <ProductSelectionToCart></ProductSelectionToCart>
             <div class="border-product"></div>
-            <h5>Product Description</h5>
-            <ul className="product-description">
-                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing.</li>
-                <li>Aliquam tincidunt mauris eu risus.</li>
-                <li>Vestibulum auctor dapibus neque.</li>
-                <li>Nunc dignissim risus id metus.</li>
-            </ul>
+            <ProductDescription></ProductDescription>
             <h5>Features</h5>
             <ul>
                 <li>Cras ornare tristique elit.</li>
