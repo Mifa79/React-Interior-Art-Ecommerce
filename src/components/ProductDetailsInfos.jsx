@@ -1,23 +1,19 @@
 import React from "react";
 import ImageSizeSelection from "./ImageSizeSelection";
 import IncreaseDecreaseQuantityButton from "./IncreaseDecreaseQuantityButton";
+import ProductDetailsHeader from "./ProductDetailsHeader";
 
 function ProductDetailsInfos() {
     return (
         <div className="col-4 product-infos">
-            <h3 className="product-name">Cafe Terrace at Night</h3>
-            <p className="product-collection"><i class="fa-sharp fa-solid fa-barcode"></i>   Signature Collection</p>
-            <p className="product-artist"><i class="fa-solid fa-palette"></i>   Vincent Van Gogh</p>
-
+            <ProductDetailsHeader></ProductDetailsHeader>
             <div class="border-product"></div>
-
             <h5 className="select-image-size-title">Select image size:</h5>
             <ImageSizeSelection></ImageSizeSelection>
             <h4 className="pricing-value">$25</h4>
             <h5 className="select-image-size-title">Select quantity:</h5>
             <IncreaseDecreaseQuantityButton></IncreaseDecreaseQuantityButton>
             <div className="add-to-cart-with-quantity">
-
                 <button class="btn btn-primary add-to-cart-button" type="button">ADD TO CART</button>
             </div>
             <div class="border-product"></div>
