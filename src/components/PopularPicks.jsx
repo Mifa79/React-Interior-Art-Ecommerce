@@ -1,4 +1,5 @@
 import React from "react";
+import {Link } from "react-router-dom";
 import ProductCard from './ProductCard';
 import products from "../products";
 
@@ -23,7 +24,7 @@ function PopularPicks() {
             <div className="row">
                 {products.map(createProductCard)}
             </div>
-            <button class="btn btn-primary view-all-product-button" type="button">VIEW ALL PRODUCTS</button>
+            <Link to="allproducts" class="btn btn-primary view-all-product-button" type="button">VIEW ALL PRODUCTS</Link>
         </div>
     );
 }

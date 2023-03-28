@@ -119,14 +119,23 @@ li {
 
 .btn:hover {
   background-color: #a57b32;
+  font-weight: 300;
 }
 
 .btn:active {
   background-color: #a57b32;
+  font-weight: 300;
 } 
 
 .btn:focus {
   background-color: #a57b32;
+  font-weight: 300;
+  box-shadow: 0 0 0 0.25rem hsla(38, 59%, 52%, 0.634);
+}
+
+.btn-primary:active:focus {
+  background-color: #a57b32;
+  font-weight: 300;
   box-shadow: 0 0 0 0.25rem hsla(38, 59%, 52%, 0.634);
 }
 
