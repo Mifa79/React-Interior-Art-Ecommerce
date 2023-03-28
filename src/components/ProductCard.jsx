@@ -9,7 +9,7 @@ function ProductCard(props) {
                 imgURL={props.imgURL}
                 imgHoverURL={props.imgHoverURL}
             />
-            <p className="item-name">{props.name} - {props.artist}</p>
+            <p className="item-name"><a href="productdetails">{props.name} - {props.artist}</a></p>
             <p className="item-category">{props.collection}</p>
         </div>
     );
