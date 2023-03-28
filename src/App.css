@@ -76,24 +76,6 @@ p {
   font-weight: 300;
 }
 
-a {
-  font-family: Outfit;
-  font-size: 16px;
-  font-weight: 400;
-  text-decoration: none;
-  color: #1a1a1a;
-}
-
-a:hover {
-  color: #cd973d;
-  font-weight: 600;
-}
-
-a:focus {
-  color: #a57b32;
-  font-weight: 600;
-}
-
 ul {
   font-family: Outfit;
   font-size: 16px;
@@ -108,7 +90,7 @@ li {
 
 /* --------- Button ---------- */ 
 
-.btn {
+.btn-primary {
   background-color: #cd973d;
   border: none;
   border-radius: 0;
@@ -117,17 +99,17 @@ li {
   letter-spacing: 2px;
 }
 
-.btn:hover {
+.btn-primary:hover {
   background-color: #a57b32;
   font-weight: 300;
 }
 
-.btn:active {
+.btn-primary:active {
   background-color: #a57b32;
   font-weight: 300;
 } 
 
-.btn:focus {
+.btn-primary:focus {
   background-color: #a57b32;
   font-weight: 300;
   box-shadow: 0 0 0 0.25rem hsla(38, 59%, 52%, 0.634);
@@ -188,6 +170,24 @@ li {
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: 8px;
+}
+
+.item-name-link {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.item-name-link:hover {
+  color: #cd973d;
+  font-weight: 600;
+}
+
+.item-name-link:focus {
+  color: #a57b32;
+  font-weight: 600;
 }
 
 .item-category {
