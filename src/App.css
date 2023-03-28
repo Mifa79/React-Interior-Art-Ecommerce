@@ -39,6 +39,8 @@
   }
 }
 
+/* --------- Typography ---------- */
+
 h1 {
   font-family: Montserrat;
   font-weight: 500;
@@ -84,10 +86,12 @@ a {
 
 a:hover {
   color: #cd973d;
+  font-weight: 600;
 }
 
 a:focus {
   color: #a57b32;
+  font-weight: 600;
 }
 
 ul {
@@ -101,6 +105,32 @@ li {
   font-size: 16px;
   font-weight: 300;
 }
+
+/* --------- Button ---------- */ 
+
+.btn {
+  background-color: #cd973d;
+  border: none;
+  border-radius: 0;
+  font-family: Outfit;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  background-color: #a57b32;
+}
+
+.btn:active {
+  background-color: #a57b32;
+} 
+
+.btn:focus {
+  background-color: #a57b32;
+  box-shadow: 0 0 0 0.25rem hsla(38, 59%, 52%, 0.634);
+}
+
+/* --------- NavBar ---------- */
 
 .navbar {
   position: -webkit-sticky;
@@ -124,6 +154,8 @@ li {
   letter-spacing: normal;
   color: #495057;
 }
+
+/* --------- Page 1 - Home Page ---------- */
 
 .homepage {
   display: grid;
@@ -201,12 +233,6 @@ li {
 }
 
 .view-all-product-button {
-  background-color: #cd973d;
-  border: none;
-  border-radius: 0;
-  font-family: Outfit;
-  font-weight: 300;
-  letter-spacing: 2px;
   padding: 10px 120px;
   margin-top: 60px;
 }
@@ -235,7 +261,7 @@ li {
 }
 
 
-/* --------- Page 3 - All Products ---------- */
+/* --------- Page 2 - All Products ---------- */
 
 .all-products {
   padding: 80px 100px;
@@ -250,7 +276,7 @@ li {
 }
 
 
-/* --------- Page 4 - Product Details ---------- */
+/* --------- Page 3 - Product Details ---------- */
 
 .product-details {
   padding: 80px 160px;
