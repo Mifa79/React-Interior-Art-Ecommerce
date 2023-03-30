@@ -473,8 +473,9 @@ li {
   text-align: right;
 }
 
-.cart-table-content {
+.cart-table-row {
   margin-left: 0;
+  padding-bottom: 25px;
 }
 
 .cart-table-product-info-container {
@@ -510,4 +511,16 @@ li {
 .cart-table-product-pricing {
   font-size: 16px;
   font-weight: 300;
+}
+
+.cart-adjust-quantity-button {
+  margin: auto;
+  padding-bottom: 0;
+}
+
+.cart-item-total-pricing {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: right;
+  margin-top: 78px;
 }
