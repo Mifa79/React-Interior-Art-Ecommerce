@@ -41,8 +41,6 @@ function ProductDetails() {
             {product.map(createProductImageCarousel)}
             {product.map(createProductDetailsInfos)}
         </div>
-
-
     );
 }
 

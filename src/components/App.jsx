@@ -4,6 +4,7 @@ import '../App.css';
 import Navbar from './Navbar';
 import Home from "./Home";
 import About from "./About";
+import Cart from "./Cart";
 import AllProducts from "./AllProducts";
 import SignatureCollection from "./SignatureCollection";
 import PosterCollection from "./PosterCollection";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/signaturecollection" element={<SignatureCollection />} />
           <Route path="/postercollection" element={<PosterCollection />} />
           <Route path="/productdetails/:productID" element={<ProductDetails />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </Router>
     </div>
