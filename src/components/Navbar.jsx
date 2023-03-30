@@ -37,7 +37,7 @@ function Navbar() {
 
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link">CART(0)</a>
+                            <a className="nav-link" href="/cart">CART(0)</a>
                         </li>
                     </ul>
 

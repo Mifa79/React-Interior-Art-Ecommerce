@@ -439,3 +439,36 @@ li {
   margin: 0 0 25px;
   border-top: 1px solid #efefef;
 }
+
+
+/* --------- Page 4 - Shopping Cart ---------- */
+
+.cart {
+  width: 100%;
+  max-width: 1020px;
+  padding: 80px;
+  margin: auto;
+  font-family: Outfit;
+}
+
+.cart-table {
+  margin: 80px 15px;
+}
+
+.cart-table-heading {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.cart-table-heading-product {
+  text-align: left;
+}
+
+.cart-table-heading-quantity {
+  text-align: center;
+}
+
+.cart-table-heading-total {
+  text-align: right;
+}
