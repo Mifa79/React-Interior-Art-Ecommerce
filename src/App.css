@@ -518,3 +518,26 @@ li {
   text-align: right;
   margin-top: 78px;
 }
+
+.cart-table-footer {
+  text-align: right;
+}
+
+.cart-subtotal {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.cart-taxes-shipping-reminder {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  color: #848484;
+  margin-bottom: 25px;
+}
+
+.check-out-button {
+  width: 28%;
+}

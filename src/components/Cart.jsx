@@ -1,6 +1,7 @@
 import React from "react";
 import CartTableHeader from "./CartTableHeader";
 import CartTableRow from "./CartTableRow";
+import CartTableFooter from "./CartTableFooter";
 
 function Cart() {
     return (
@@ -10,6 +11,7 @@ function Cart() {
                 <CartTableHeader></CartTableHeader>
                 <CartTableRow></CartTableRow>
                 <CartTableRow></CartTableRow>
+                <CartTableFooter></CartTableFooter>
             </div>
         </div>
     );
