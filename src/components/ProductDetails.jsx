@@ -18,6 +18,20 @@ function createProductImageCarousel(product) {
     );
 }
 
+function createProductDetailsInfos(product) {
+    return (
+        <ProductDetailsInfos
+            id={product.id}
+            name={product.name}
+            artist={product.artist}
+            imgURL={product.imgURL}
+            imgHoverURL={product.imgHoverURL}
+            pricing={product.pricing}
+            collection={product.collection}
+        />
+    );
+}
+
 function ProductDetails() {
     const {productID} = useParams();
     const product = products.filter(product => product.id === productID);
@@ -25,8 +39,7 @@ function ProductDetails() {
     return (
         <div className="row product-details">
             {product.map(createProductImageCarousel)}
-            {/* <ProductImageCarousel></ProductImageCarousel> */}
-            <ProductDetailsInfos></ProductDetailsInfos>
+            {product.map(createProductDetailsInfos)}
         </div>
 
 

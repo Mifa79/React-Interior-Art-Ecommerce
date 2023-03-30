@@ -5,10 +5,16 @@ import ProductFeatures from "./ProductFeatures";
 import ProductSelectionToCart from "./ProductSelectionToCart";
 import ThinHorizontalLine from "./ThinHorizontalLine";
 
-function ProductDetailsInfos() {
+
+function ProductDetailsInfos(props) {
     return (
         <div className="col-4 product-infos">
-            <ProductDetailsHeader></ProductDetailsHeader>
+            <ProductDetailsHeader
+                id={props.id}
+                name={props.name}
+                artist={props.artist}
+                collection={props.collection}
+            />
             <ThinHorizontalLine></ThinHorizontalLine>
             <ProductSelectionToCart></ProductSelectionToCart>
             <ThinHorizontalLine></ThinHorizontalLine>
