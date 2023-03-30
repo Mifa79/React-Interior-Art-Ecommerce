@@ -1,7 +1,6 @@
 import React from "react";
 import ThinHorizontalLine from "./ThinHorizontalLine";
 import IncreaseDecreaseQuantityButton from "./IncreaseDecreaseQuantityButton";
-import product1Image from '../assets/images/product_1.webp';
 import product1HoverImage from '../assets/images/product_1_hover.webp';
 
 function CartTableRow() {
