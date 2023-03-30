@@ -458,7 +458,7 @@ li {
 .cart-table-heading {
   font-size: 17px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .cart-table-heading-product {
@@ -471,4 +471,43 @@ li {
 
 .cart-table-heading-total {
   text-align: right;
+}
+
+.cart-table-content {
+  margin-left: 0;
+}
+
+.cart-table-product-info-container {
+  width: 100%;
+  padding: 0;
+  display: flex;
+}
+
+.cart-table-product-image {
+  width: 40%;
+  padding-left: 0;
+}
+
+.cart-table-product-info {
+  width: 60%;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.cart-table-product-name {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.cart-table-product-size {
+  font-size: 16px;
+  font-weight: 400;
+  color: #848484;
+  margin-bottom: 5px;
+}
+
+.cart-table-product-pricing {
+  font-size: 16px;
+  font-weight: 300;
 }
