@@ -27,7 +27,7 @@ function App() {
           <Route path="/allproducts" element={<AllProducts />} />
           <Route path="/signaturecollection" element={<SignatureCollection />} />
           <Route path="/postercollection" element={<PosterCollection />} />
-          <Route path="/productdetails" element={<ProductDetails />} />
+          <Route path="/productdetails/:productID" element={<ProductDetails />} />
         </Routes>
       </Router>
     </div>

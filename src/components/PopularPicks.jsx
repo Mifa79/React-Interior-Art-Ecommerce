@@ -6,7 +6,7 @@ import products from "../products";
 function createProductCard(product) {
     return (
         <ProductCard
-            key={product.id}
+            id={product.id}
             name={product.name}
             artist={product.artist}
             imgURL={product.imgURL}

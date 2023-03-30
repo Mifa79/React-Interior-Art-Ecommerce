@@ -18,7 +18,7 @@ import product8HoverImage from './assets/images/product_8_hover.webp';
 
 const products = [
     {
-        id: 1,
+        id: "1",
         name: "The flower beds",
         artist: "Claude Monet",
         imgURL: product1Image,
@@ -27,7 +27,7 @@ const products = [
         collection: "Signature Collection",
     },
     {
-        id: 2,
+        id: "2",
         name: "Cafe Terrace at Night",
         artist: "Vincent Van Gogh",
         imgURL: product2Image,
@@ -36,7 +36,7 @@ const products = [
         collection: "Signature Collection",
     },
     {
-        id: 3,
+        id: "3",
         name: "Pink Sky",
         artist: "Watanabe Seitei",
         imgURL: product3Image,
@@ -45,7 +45,7 @@ const products = [
         collection: "Signature Collection",
     },
     {
-        id: 4,
+        id: "4",
         name: "Green Wheat Fields",
         artist: "Vincent Van Gogh",
         imgURL: product4Image,
@@ -54,7 +54,7 @@ const products = [
         collection: "Signature Collection",
     },
     {
-        id: 5,
+        id: "5",
         name: "Floral Vintage",
         artist: "South End Art Exhibition",
         imgURL: product5Image,
@@ -63,7 +63,7 @@ const products = [
         collection: "Poster Collection",
     },
     {
-        id: 6,
+        id: "6",
         name: "The Harbinger of Autumn",
         artist: "Paul Klee",
         imgURL: product6Image,
@@ -72,7 +72,7 @@ const products = [
         collection: "Poster Collection",
     },
     {
-        id: 7,
+        id: "7",
         name: "Succulent Vintage",
         artist: "South End Art Exhibition",
         imgURL: product7Image,
@@ -81,7 +81,7 @@ const products = [
         collection: "Poster Collection",
     },
     {
-        id: 8,
+        id: "8",
         name: "Abstract Gold and Blue",
         artist: "South End Art Exhibition",
         imgURL: product8Image,
