@@ -3,7 +3,7 @@ import product1HoverImage from '../assets/images/product_1_hover.webp';
 
 function CartItemInfo() {
     return (
-        <div className="row cart-item-info-container">
+        <div className="cart-item-info-container">
             <div className="cart-table-product-image-container">
                 <img src={product1HoverImage} className="cart-table-product-image"></img>
             </div>

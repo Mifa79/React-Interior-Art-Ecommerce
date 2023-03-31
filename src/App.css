@@ -394,6 +394,7 @@ li {
 .adjust-quantity-button {
   width: 110px;
   padding: 0;
+  margin: auto;
 }
 
 .quantity-minus-button {
@@ -455,7 +456,7 @@ li {
 .cart {
   width: 100%;
   max-width: 1024px;
-  padding: 80px;
+  padding: 80px 15px 80px 15px;
   margin: auto;
   font-family: Outfit;
 }
@@ -484,12 +485,24 @@ li {
 
 .cart-table-row {
   margin-left: 0;
+  padding-left: 0;
   padding-bottom: 25px;
+}
+
+.cart-item-info {
+  padding: 0;
+  margin-top: 0;
+}
+
+.cart-item-info-container {
+  padding: 0;
 }
 
 .cart-table-product-image-container {
   width: 40%;
   padding-left: 0;
+  display: inline-block;
+  margin-left: 0;
 }
 
 .cart-table-product-image {
@@ -500,7 +513,28 @@ li {
 .cart-table-product-info {
   width: 60%;
   text-align: left;
-  padding-top: 30px;
+  margin: auto;
+  display: inline-block;
+  padding-left: 25px;
+}
+
+@media (max-width: 800px) {
+  .cart-item-info-container {
+    display: block;
+  }
+
+  .cart-table-product-image-container {
+    width: 170px;
+    margin-top: 0;
+    display: block;
+  }
+
+  .cart-table-product-info {
+    width: 100%;
+    padding-left: 0;
+    display: block;
+    margin-top: 15px;
+  }
 }
 
 .cart-table-product-name {
@@ -519,6 +553,7 @@ li {
 .cart-table-product-pricing {
   font-size: 16px;
   font-weight: 300;
+  margin-bottom: 0;
 }
 
 .cart-adjust-quantity-button {
@@ -552,5 +587,5 @@ li {
 }
 
 .check-out-button {
-  width: 28%;
+  width: 200px;
 }
