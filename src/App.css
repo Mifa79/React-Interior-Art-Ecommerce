@@ -409,8 +409,6 @@ li {
   font-family: Outfit;
   text-align: center;
   margin: auto;
-  display: table-cell; 
-  vertical-align: middle;
 }
 
 .add-to-cart-button {
@@ -525,14 +523,13 @@ li {
 
 .cart-adjust-quantity-button {
   margin: auto;
-  padding-bottom: 0;
 }
 
 .cart-item-total-pricing {
   font-size: 16px;
   font-weight: 300;
   text-align: right;
-  margin-top: 78px;
+  margin: auto;
 }
 
 .cart-table-footer {
