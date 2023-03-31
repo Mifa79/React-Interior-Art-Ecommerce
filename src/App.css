@@ -391,6 +391,28 @@ li {
   background-color: #5d5d5d;
 }
 
+.adjust-quantity-button {
+  width: 110px;
+  padding: 0;
+}
+
+.quantity-minus-button {
+  margin: 0 auto 0 0;
+}
+
+.quantity-plus-button {
+  margin: 0 0 0 auto;
+}
+
+.quantity-field {
+  width: 40px;
+  font-family: Outfit;
+  text-align: center;
+  margin: auto;
+  display: table-cell; 
+  vertical-align: middle;
+}
+
 .add-to-cart-button {
   background-color: #cd973d;
   border: none;
@@ -399,6 +421,7 @@ li {
   font-weight: 300;
   letter-spacing: 2px;
   padding: 10px 84px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -408,18 +431,6 @@ li {
 
 .add-to-cart-with-quantity {
   display: flex;
-}
-
-.quantity-field {
-  width: 50px;
-  height: 40px;
-  font-family: Outfit;
-  text-align: center;
-
-}
-
-.quantity-number {
-  vertical-align: middle;
 }
 
 .icon-shape {
@@ -445,7 +456,7 @@ li {
 
 .cart {
   width: 100%;
-  max-width: 1020px;
+  max-width: 1024px;
   padding: 80px;
   margin: auto;
   font-family: Outfit;
@@ -478,8 +489,13 @@ li {
   padding-bottom: 25px;
 }
 
-.cart-table-product-image {
+.cart-table-product-image-container {
   width: 40%;
+  padding-left: 0;
+}
+
+.cart-table-product-image {
+  width: 100%;
   padding-left: 0;
 }
 

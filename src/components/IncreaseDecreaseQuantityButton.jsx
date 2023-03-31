@@ -17,10 +17,10 @@ function IncreaseDecreaseQuantityButton() {
 
     return (
         <div class="d-flex">
-            <div class="input-group">
-                <button class="button-minus border rounded-circle  icon-shape icon-sm" onClick={decrease}>-</button>
-                <p className="quantity-field"><span className="quantity-number">{count}</span></p>
-                <button class="button-minus border rounded-circle  icon-shape icon-sm" onClick={increase}>+</button>
+            <div class="adjust-quantity-button input-group">
+                <button class="quantity-minus-button button-minus border rounded-circle icon-shape icon-sm" onClick={decrease}>-</button>
+                <div className="quantity-field"><div className="quantity-number">{count}</div></div>
+                <button class="quantity-plus-button button-minus border rounded-circle icon-shape icon-sm" onClick={increase}>+</button>
             </div>
         </div>
     );
