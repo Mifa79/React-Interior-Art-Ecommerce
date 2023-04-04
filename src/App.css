@@ -209,8 +209,7 @@ li {
 }
 
 .product-category {
-  padding: 20px 100px;
-  margin-bottom: 30px;
+  padding: 20px 50px 5px 50px;
 }
 
 .category-image-container {
@@ -231,7 +230,6 @@ li {
 .category-info-container {
   width: 50%;
   height: 500px;
-  padding-right: 16px; 
   padding-left: 16px;
   display: inline-block;
 }
