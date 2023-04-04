@@ -446,6 +446,11 @@ li {
   background-color: #5d5d5d;
 }
 
+.product-detail-quantity-selection {
+  width: 110px;
+  margin-top: 10px;
+}
+
 .adjust-quantity-button {
   width: 110px;
   padding: 0;

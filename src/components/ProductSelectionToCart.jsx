@@ -9,7 +9,9 @@ function ProductSelectionToCart() {
             <ImageSizeSelection></ImageSizeSelection>
             <h4 className="pricing-value">$25</h4>
             <h5 className="select-image-size-title">Select quantity:</h5>
-            <IncreaseDecreaseQuantityButton></IncreaseDecreaseQuantityButton>
+            <div className="product-detail-quantity-selection">
+                <IncreaseDecreaseQuantityButton></IncreaseDecreaseQuantityButton>
+            </div>
             <div className="add-to-cart-with-quantity">
                 <button class="btn btn-primary add-to-cart-button" type="button">ADD TO CART</button>
             </div>
