@@ -1,4 +1,5 @@
 import React from "react";
+import AddToCartButton from "./AddToCartButton";
 import ImageSizeSelection from "./ImageSizeSelection";
 import IncreaseDecreaseQuantityButton from "./IncreaseDecreaseQuantityButton";
 
@@ -13,7 +14,7 @@ function ProductSelectionToCart() {
                 <IncreaseDecreaseQuantityButton></IncreaseDecreaseQuantityButton>
             </div>
             <div className="add-to-cart-with-quantity">
-                <button class="btn btn-primary add-to-cart-button" type="button">ADD TO CART</button>
+                <AddToCartButton></AddToCartButton>
             </div>
         </div>
     );

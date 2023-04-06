@@ -1,4 +1,5 @@
 import React from "react";
+import NavbarCart from "./NavbarCart";
 
 function Navbar() {
     return (
@@ -36,9 +37,7 @@ function Navbar() {
                     </ul>
 
                     <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link" href="/cart">CART(0)</a>
-                        </li>
+                        <NavbarCart></NavbarCart>
                     </ul>
 
                     {/* <form className="d-flex">
