@@ -21,6 +21,7 @@ function ProductDetailsInfos(props) {
                 name={props.name}
                 artist={props.artist}
                 collection={props.collection}
+                pricing={props.pricing}
             />
             <ThinHorizontalLine></ThinHorizontalLine>
             <ProductDescription></ProductDescription>
