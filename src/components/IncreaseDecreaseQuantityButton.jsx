@@ -1,17 +1,22 @@
+/* eslint-disable no-undef */
+
 import React, { useState } from 'react';
 
-function IncreaseDecreaseQuantityButton() {
+function IncreaseDecreaseQuantityButton({ onQuantityChange }) {
     const [count, setCount] = useState(0);
 
     function increase() {
         setCount(prevCount => prevCount + 1);
+        onQuantityChange(prevCount + 1);
     }
 
     function decrease() {
         if (count > 0) {
             setCount(prevCount => prevCount - 1);
+            onQuantityChange(prevCount - 1); 
         } else {
             setCount(0);
+            onQuantityChange(0);
         }
     }
 
