@@ -16,7 +16,12 @@ function ProductDetailsInfos(props) {
                 collection={props.collection}
             />
             <ThinHorizontalLine></ThinHorizontalLine>
-            <ProductSelectionToCart></ProductSelectionToCart>
+            <ProductSelectionToCart
+                id={props.id}
+                name={props.name}
+                artist={props.artist}
+                collection={props.collection}
+            />
             <ThinHorizontalLine></ThinHorizontalLine>
             <ProductDescription></ProductDescription>
             <ProductFeatures></ProductFeatures>
