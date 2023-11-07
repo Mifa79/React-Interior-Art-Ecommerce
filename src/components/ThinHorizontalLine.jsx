@@ -2,7 +2,7 @@ import React from "react";
 
 function ThinHorizontalLine() {
     return (
-        <div class="border-product"></div>
+        <div className="border-product"></div>
     );
 }
 

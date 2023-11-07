@@ -1,29 +1,28 @@
-/* eslint-disable no-undef */
-
 import React, { useState } from 'react';
 
 function IncreaseDecreaseQuantityButton({ onQuantityChange }) {
     const [count, setCount] = useState(0);
 
     function increase() {
-        setCount(prevCount => prevCount + 1);
-        onQuantityChange(prevCount + 1);
+        const newCount = count + 1;
+        setCount(newCount);
+        onQuantityChange(newCount); // Invoke the onQuantityChange prop with the updated count
     }
 
     function decrease() {
         if (count > 0) {
-            setCount(prevCount => prevCount - 1);
-            onQuantityChange(prevCount - 1); 
-        } else {
-            setCount(0);
-            onQuantityChange(0);
+            const newCount = count - 1;
+            setCount(newCount);
+            onQuantityChange(newCount); // Invoke the onQuantityChange prop with the updated count
         }
     }
 
     return (
         <div className="adjust-quantity-button input-group">
             <button className="quantity-minus-button button-minus border rounded-circle icon-shape icon-sm" onClick={decrease}>-</button>
-            <div className="quantity-field"><div className="quantity-number">{count}</div></div>
+            <div className="quantity-field">
+                <div className="quantity-number">{count}</div>
+            </div>
             <button className="quantity-plus-button button-minus border rounded-circle icon-shape icon-sm" onClick={increase}>+</button>
         </div>
     );

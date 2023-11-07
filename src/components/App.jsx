@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { CartContext } from '../context';
+import { CartProvider } from '../CartContext';
+// import { CartContext } from '../context';
 import ReactDOM from "react-dom/client";
 import '../App.css';
 import Navbar from './Navbar';
@@ -23,21 +24,23 @@ function App() {
 
   return (
     <div className="App">
-      <CartContext.Provider value={{ cart, setCart }}>
-        <Router>
-          <Navbar></Navbar>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/allproducts" element={<AllProducts />} />
-            <Route path="/signaturecollection" element={<SignatureCollection />} />
-            <Route path="/postercollection" element={<PosterCollection />} />
-            <Route path="/productdetails/:productID" element={<ProductDetails />} />
-            <Route path="/cart" element={<Cart />} />
-          </Routes>
-        </Router>
-      </CartContext.Provider>
-    </div>
+    <Router>
+      <Navbar></Navbar>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/allproducts" element={<AllProducts />} />
+        <Route path="/signaturecollection" element={<SignatureCollection />} />
+        <Route path="/postercollection" element={<PosterCollection />} />
+        <Route path="/productdetails/:productID" element={<ProductDetails />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
+    </Router>
+  </div>
+
+
+
+    
   );
 }
 
