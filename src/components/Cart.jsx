@@ -5,11 +5,12 @@ import CartTableRow from "./CartTableRow";
 import CartTableFooter from "./CartTableFooter";
 
 function Cart() {
-    const items = useCart();
+    const cartItems = useCart();
+    const cartDispatch = useDispatchCart();
 
     useEffect(() => {
-        console.log('cartState:', items);
-    }, [items]);   
+        console.log('cartItems:', cartItems);
+    }, [cartItems]);   
 
     return (
         <div className="cart">
@@ -25,7 +26,7 @@ function Cart() {
                 </ul> */}
                 
                 
-                {items.map((item) => (
+                {cartItems.map((item) => (
                     <CartTableRow item={item} />
                 ))}
                 <CartTableFooter></CartTableFooter>
