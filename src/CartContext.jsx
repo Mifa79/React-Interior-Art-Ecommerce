@@ -6,11 +6,24 @@ const CartDispatchContext = createContext();
 const CartReducer = (state, action) => {
     switch (action.type) {
         case 'ADD_TO_CART':
-            console.log('state ADD_TO_CART', state);
-            return [...state, action.item];
+            // Check if the product is already in the cart
+            const existingProduct = state.find(item => item.id === action.item.id);
+            console.log('existingProduct', existingProduct);
+
+            if (existingProduct) {
+                // If it's already in the cart, update the quantity
+                return state.map(item =>
+                    item.id === action.item.id
+                        ? { ...item, quantity: item.quantity + action.item.quantity }
+                        : item
+                );
+
+            } else {
+                // If it's not in the cart, add it
+                return [...state, action.item];
+            }
 
         case 'LOAD_CART':
-            console.log('state LOAD_CART', state);
             // Handle loading the cart state from local storage
             return action.payload; // Set the cart state to the payload loaded from local storage
 
@@ -31,7 +44,6 @@ export const CartProvider = ({ children }) => {
 
     // Save cartItems to local storage whenever it changes
     useEffect(() => {
-        console.log('save to local storage');
         localStorage.setItem('cartState', JSON.stringify(cartState));
     }, [cartState]);
 
