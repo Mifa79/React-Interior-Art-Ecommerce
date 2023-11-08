@@ -23,7 +23,7 @@ const products = [
         artist: "Claude Monet",
         imgURL: product1Image,
         imgHoverURL: product1HoverImage,
-        pricing: "$25",
+        pricing: "$26",
         collection: "Signature Collection",
     },
     {
@@ -41,7 +41,7 @@ const products = [
         artist: "Watanabe Seitei",
         imgURL: product3Image,
         imgHoverURL: product3HoverImage,
-        pricing: "$25",
+        pricing: "$24",
         collection: "Signature Collection",
     },
     {

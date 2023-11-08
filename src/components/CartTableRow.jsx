@@ -11,7 +11,7 @@ function CartTableRow({ item }) {
                     <CartItemInfo item={item}></CartItemInfo>
                 </div>
                 <div className="col-4 cart-adjust-quantity-button">
-                    <IncreaseDecreaseQuantityButton></IncreaseDecreaseQuantityButton>
+                    {<IncreaseDecreaseQuantityButton></IncreaseDecreaseQuantityButton>}
                 </div>
                 <p className="col-2 cart-item-total-pricing">$25</p>
             </div>
