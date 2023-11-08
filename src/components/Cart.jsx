@@ -10,7 +10,7 @@ function Cart() {
 
     useEffect(() => {
         console.log('cartItems:', cartItems);
-    }, [cartItems]);   
+    }, [cartItems]);
 
     return (
         <div className="cart">
