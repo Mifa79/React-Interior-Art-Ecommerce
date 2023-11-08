@@ -10,7 +10,7 @@ function ProductSelectionToCart(props) {
         id: props.id,
         name: props.name,
         pricing: props.pricing,
-        quantity: 0,
+        quantity: 1,
     });
 
     const handleQuantityChange = (newQuantity) => {
@@ -19,7 +19,7 @@ function ProductSelectionToCart(props) {
             name: props.name,
             pricing: props.pricing,
             quantity: newQuantity,
-        })  
+        })
     };
 
     useEffect(() => {

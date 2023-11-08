@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function IncreaseDecreaseQuantityButton({ onQuantityChange }) {
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(1);
 
     function increase() {
         const newCount = count + 1;
@@ -10,7 +10,7 @@ function IncreaseDecreaseQuantityButton({ onQuantityChange }) {
     }
 
     function decrease() {
-        if (count > 0) {
+        if (count > 1) {
             const newCount = count - 1;
             setCount(newCount);
             onQuantityChange(newCount); // Invoke the onQuantityChange prop with the updated count
