@@ -16,18 +16,6 @@ function AddToCartButton({ productToAdd }) {
         console.log('cartItems:', cartItems);
     }, [cartItems]);  
 
-    // Load cartItems from local storage when the component mounts
-    // useEffect(() => {
-    //     const storedCartItems = localStorage.getItem('cartItems');
-    //     if (storedCartItems) {
-    //     cartDispatch({ type: 'LOAD_CART', payload: JSON.parse(storedCartItems) });
-    //     }
-
-    //     console.log('load from local storage')
-    //     console.log('storedCartItems:', storedCartItems);
-    // }, [cartDispatch]);
-
-
     // Save cartItems to local storage whenever it changes
     useEffect(() => {
         console.log('save to local storage');
