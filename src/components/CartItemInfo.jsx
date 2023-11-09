@@ -12,7 +12,7 @@ function CartItemInfo({ item }) {
             <div className="cart-table-product-info">
                 <p className="cart-table-product-name">{name}</p>
                 <p className="cart-table-product-size">Poster Size: {size}</p>
-                <p className="cart-table-product-pricing">{pricing}</p>
+                <p className="cart-table-product-pricing">${pricing}</p>
             </div>
         </div>
     );

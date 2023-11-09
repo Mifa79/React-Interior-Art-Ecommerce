@@ -4,6 +4,9 @@ import IncreaseDecreaseQuantityButton from "./IncreaseDecreaseQuantityButton";
 import CartItemInfo from "./CartItemInfo";
 
 function CartTableRow({ item }) {
+    item.pricing = parseFloat(item.pricing);
+    item.quantity = parseInt(item.quantity);
+
     return (
         <div>
             <div className="row cart-table-row">
@@ -14,7 +17,7 @@ function CartTableRow({ item }) {
                     {item.quantity}
                     {/* {<IncreaseDecreaseQuantityButton></IncreaseDecreaseQuantityButton>} */}
                 </div>
-                <p className="col-2 cart-item-total-pricing">{item.pricing}</p>
+                <p className="col-2 cart-item-total-pricing">${item.pricing * item.quantity}</p>
             </div>
             <ThinHorizontalLine></ThinHorizontalLine>
         </div>

@@ -35,7 +35,7 @@ function ProductSelectionToCart(props) {
         <div>
             <h5 className="select-image-size-title">Select image size:</h5>
             <ImageSizeSelection></ImageSizeSelection>
-            <h4 className="pricing-value">{props.pricing}</h4>
+            <h4 className="pricing-value">${props.pricing}</h4>
             <h5 className="select-image-size-title">Select quantity:</h5>
             <div className="product-detail-quantity-selection">
                 <IncreaseDecreaseQuantityButton onQuantityChange={handleQuantityChange}></IncreaseDecreaseQuantityButton>

@@ -23,7 +23,7 @@ const products = [
         artist: "Claude Monet",
         imgURL: product1Image,
         imgHoverURL: product1HoverImage,
-        pricing: "$26",
+        pricing: "26",
         collection: "Signature Collection",
     },
     {
@@ -32,7 +32,7 @@ const products = [
         artist: "Vincent Van Gogh",
         imgURL: product2Image,
         imgHoverURL: product2HoverImage,
-        pricing: "$25",
+        pricing: "25",
         collection: "Signature Collection",
     },
     {
@@ -41,7 +41,7 @@ const products = [
         artist: "Watanabe Seitei",
         imgURL: product3Image,
         imgHoverURL: product3HoverImage,
-        pricing: "$24",
+        pricing: "24",
         collection: "Signature Collection",
     },
     {
@@ -50,7 +50,7 @@ const products = [
         artist: "Vincent Van Gogh",
         imgURL: product4Image,
         imgHoverURL: product4HoverImage,
-        pricing: "$25",
+        pricing: "25",
         collection: "Signature Collection",
     },
     {
@@ -59,7 +59,7 @@ const products = [
         artist: "South End Art Exhibition",
         imgURL: product5Image,
         imgHoverURL: product5HoverImage,
-        pricing: "$25",
+        pricing: "25",
         collection: "Poster Collection",
     },
     {
@@ -68,7 +68,7 @@ const products = [
         artist: "Paul Klee",
         imgURL: product6Image,
         imgHoverURL: product6HoverImage,
-        pricing: "$25",
+        pricing: "25",
         collection: "Poster Collection",
     },
     {
@@ -77,7 +77,7 @@ const products = [
         artist: "South End Art Exhibition",
         imgURL: product7Image,
         imgHoverURL: product7HoverImage,
-        pricing: "$25",
+        pricing: "25",
         collection: "Poster Collection",
     },
     {
@@ -86,7 +86,7 @@ const products = [
         artist: "South End Art Exhibition",
         imgURL: product8Image,
         imgHoverURL: product8HoverImage,
-        pricing: "$25",
+        pricing: "25",
         collection: "Poster Collection",
     },
 ];

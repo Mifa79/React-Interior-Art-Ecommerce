@@ -25,7 +25,7 @@ const CartReducer = (state, action) => {
 
         case 'LOAD_CART':
             // Handle loading the cart state from local storage
-            return action.payload; // Set the cart state to the payload loaded from local storage
+            return action.item; // Set the cart state to the payload loaded from local storage
 
         default:
             throw new Error(`unknown action ${action.type}`);
