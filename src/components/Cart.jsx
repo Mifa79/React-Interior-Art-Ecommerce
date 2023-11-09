@@ -8,6 +8,12 @@ function Cart() {
     const cartItems = useCart();
     const cartDispatch = useDispatchCart();
 
+    const calculateTotalPrice = (cartItems) => {
+        return cartItems.reduce((total, item) => {
+            return total + item.quantity * item.pricing;
+        }, 0);
+    };
+
     useEffect(() => {
         console.log('cartItems:', cartItems);
     }, [cartItems]);
@@ -22,7 +28,7 @@ function Cart() {
                     <CartTableRow item={item} />
                 ))}
 
-                <CartTableFooter></CartTableFooter>
+                <CartTableFooter totalPrice={calculateTotalPrice(cartItems)}></CartTableFooter>
             </div>
         </div>
     );

@@ -4,9 +4,6 @@ import IncreaseDecreaseQuantityButton from "./IncreaseDecreaseQuantityButton";
 import CartItemInfo from "./CartItemInfo";
 
 function CartTableRow({ item }) {
-    item.pricing = parseFloat(item.pricing);
-    item.quantity = parseInt(item.quantity);
-
     return (
         <div>
             <div className="row cart-table-row">
