@@ -1,18 +1,18 @@
-import product1Image from './assets/images/product_1.webp';
+import product1Image from './assets/images/product_1.jpg';
 import product1HoverImage from './assets/images/product_1_hover.webp';
-import product2Image from './assets/images/product_2.webp';
+import product2Image from './assets/images/product_2.jpg';
 import product2HoverImage from './assets/images/product_2_hover.webp';
-import product3Image from './assets/images/product_3.webp';
+import product3Image from './assets/images/product_3.jpg';
 import product3HoverImage from './assets/images/product_3_hover.webp';
-import product4Image from './assets/images/product_4.jpeg';
+import product4Image from './assets/images/product_4.jpg';
 import product4HoverImage from './assets/images/product_4_hover.webp';
-import product5Image from './assets/images/product_5.webp';
+import product5Image from './assets/images/product_5.jpg';
 import product5HoverImage from './assets/images/product_5_hover.webp';
-import product6Image from './assets/images/product_6.webp';
+import product6Image from './assets/images/product_6.jpg';
 import product6HoverImage from './assets/images/product_6_hover.webp';
-import product7Image from './assets/images/product_7.webp';
+import product7Image from './assets/images/product_7.jpg';
 import product7HoverImage from './assets/images/product_7_hover.webp';
-import product8Image from './assets/images/product_8.webp';
+import product8Image from './assets/images/product_8.jpg';
 import product8HoverImage from './assets/images/product_8_hover.webp';
 
 
