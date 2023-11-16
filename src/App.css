@@ -135,7 +135,7 @@ li {
   font-weight: 300;
   font-size: 14px;
   letter-spacing: 0.5px;
-  padding: 20px 70px;
+  padding: 20px 20px;
   z-index: 99 !important;
 }
 
@@ -205,9 +205,14 @@ li {
 
 @media (max-width: 950px) {
   .hero-text-banner {
-    height: 350px;
+    height: 400px;
     width: 100%;
+    padding: 100px, 100px;
     order: 2;
+  }
+
+  .hero-text-container {
+    width: 80%;
   }
 
   .hero-image-container {
@@ -222,11 +227,15 @@ li {
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 700px) {
   .hero-text-banner {
-    height: 480px;
+    height: 400px;
     width: 100%;
     order: 2;
+  }
+
+  .hero-text-container {
+    width: 80%;
   }
 }
 
