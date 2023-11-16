@@ -17,7 +17,6 @@ const CartReducer = (state, action) => {
                         ? { ...item, quantity: item.quantity + action.item.quantity }
                         : item
                 );
-
             } else {
                 // If it's not in the cart, add it
                 return [...state, action.item];
@@ -34,13 +33,18 @@ const CartReducer = (state, action) => {
                         ? { ...item, quantity: item.quantity + 1 }
                         : item
                 );
-
             } else {
                 // If it's not in the cart, add it
                 return [...state, action.item];
             }
 
-
+        case 'DECREASE_ITEM_QUANTITY':
+            return state.map(item =>
+                item.id === action.item.id
+                    ? { ...item, quantity: item.quantity > 1 ? item.quantity - 1 : 0 }
+                    : item
+            ).filter(item => item.quantity > 0);
+            
         case 'LOAD_CART':
             // Handle loading the cart state from local storage
             return action.item; // Set the cart state to the payload loaded from local storage

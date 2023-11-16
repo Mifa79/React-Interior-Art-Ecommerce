@@ -12,16 +12,16 @@ function UpdateCartItemQuantity({ item }) {
         });
     }
 
-    // const calculateTotalQuantity = (cartItems) => {
-    //     return cartItems.reduce((total, item) => {
-    //         return total + item.quantity;
-    //     }, 0);
-    // };
-
+    function decreaseQuantity(item) {
+        cartDispatch({
+            type: 'DECREASE_ITEM_QUANTITY',
+            item
+        });
+    }
 
     return (
         <div className="adjust-quantity-button input-group">
-            <button className="quantity-minus-button button-minus border rounded-circle icon-shape icon-sm">-</button>
+            <button className="quantity-minus-button button-minus border rounded-circle icon-shape icon-sm" onClick={() => decreaseQuantity(item)}>-</button>
             <div className="quantity-field">
                 <div className="quantity-number">{item.quantity}</div>
             </div>
