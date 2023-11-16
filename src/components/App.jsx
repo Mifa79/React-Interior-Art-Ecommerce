@@ -8,8 +8,8 @@ import Home from "./Home";
 import About from "./About";
 import Cart from "./Cart";
 import AllProducts from "./AllProducts";
-import SignatureCollection from "./SignatureCollection";
-import PosterCollection from "./PosterCollection";
+import ContemporaryCollection from "./ContemporaryCollection";
+import HeritageCollection from "./HeritageCollection";
 import ProductDetails from "./ProductDetails";
 
 import {
@@ -30,8 +30,8 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/allproducts" element={<AllProducts />} />
-        <Route path="/signaturecollection" element={<SignatureCollection />} />
-        <Route path="/postercollection" element={<PosterCollection />} />
+        <Route path="/contemporaryCollection" element={<ContemporaryCollection />} />
+        <Route path="/heritagecollection" element={<HeritageCollection />} />
         <Route path="/productdetails/:productID" element={<ProductDetails />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>

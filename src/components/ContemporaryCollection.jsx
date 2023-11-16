@@ -16,17 +16,17 @@ function createProductCard(product) {
     );
 }
 
-function PosterCollection() {
-    const posterProducts = products.filter(product => product.collection === "Poster Collection");
+function ContemporaryCollection() {
+    const contemporaryProducts = products.filter(product => product.collection === "Contemporary Collection");
     return (
-        <div className="poster-collection">
-            <h2>Poster Collection</h2>
+        <div className="contemporary-collection">
+            <h2>Contemporary Collection</h2>
             <div className="row">
-                {posterProducts.map(createProductCard)}
+                {contemporaryProducts.map(createProductCard)}
             </div>
             
         </div>
     );
 }
 
-export default PosterCollection;
+export default ContemporaryCollection;

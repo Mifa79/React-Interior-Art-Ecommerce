@@ -1,7 +1,11 @@
 import React from "react";
 import NavbarCart from "./NavbarCart";
+import products from "../products";
 
 function Navbar() {
+    // Extract unique collection names from the products array
+    const uniqueCollections = Array.from(new Set(products.map(product => product.collection)));
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
@@ -28,8 +32,17 @@ function Navbar() {
                                 COLLECTIONS
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="/signaturecollection">Contemporary Collection</a></li>
-                                <li><a className="dropdown-item" href="postercollection">Heritage Collection</a></li>
+                                <li><a className="dropdown-item" href="/contemporaryCollection">Contemporary Collection</a></li>
+                                <li><a className="dropdown-item" href="heritagecollection">Heritage Collection</a></li>
+
+                                {/* {uniqueCollections.map(collection => (
+                                    <li key={collection}>
+                                        <a className="dropdown-item" href={`/${collection.toLowerCase().replace(/\s+/g, '')}`}>
+                                            {collection}
+                                        </a>
+                                    </li>
+                                ))} */}
+                                
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="#">Something else here</a></li>
                             </ul>
