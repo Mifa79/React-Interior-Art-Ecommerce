@@ -23,6 +23,24 @@ const CartReducer = (state, action) => {
                 return [...state, action.item];
             }
 
+        case 'INCREASE_ITEM_QUANTITY':
+            // Check if the product is already in the cart
+            const existingItem = state.find(item => item.id === action.item.id);
+
+            if (existingItem) {
+                // If it's already in the cart, increase the quantity by 1
+                return state.map(item =>
+                    item.id === action.item.id
+                        ? { ...item, quantity: item.quantity + 1 }
+                        : item
+                );
+
+            } else {
+                // If it's not in the cart, add it
+                return [...state, action.item];
+            }
+
+
         case 'LOAD_CART':
             // Handle loading the cart state from local storage
             return action.item; // Set the cart state to the payload loaded from local storage
