@@ -1,5 +1,5 @@
 import React from "react";
-import CategoryImage from "../assets/images/category_1.jpeg";
+import CategoryImage from "../assets/images/category_1.jpg";
 
 function ProductCategory() {
     return (
