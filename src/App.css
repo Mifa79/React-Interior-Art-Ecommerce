@@ -95,7 +95,7 @@ li {
 /* --------- Button ---------- */ 
 
 .btn-primary {
-  background-color: #cd973d;
+  background-color: #C47F43;
   border: none;
   border-radius: 0;
   font-family: Outfit;
@@ -104,25 +104,25 @@ li {
 }
 
 .btn-primary:hover {
-  background-color: #a57b32;
+  background-color: #BA7643;
   font-weight: 300;
 }
 
 .btn-primary:active {
-  background-color: #a57b32;
+  background-color: #BA7643;
   font-weight: 300;
 } 
 
 .btn-primary:focus {
-  background-color: #a57b32;
+  background-color: #BA7643;
   font-weight: 300;
-  box-shadow: 0 0 0 0.25rem hsla(38, 59%, 52%, 0.634);
+  box-shadow: 0 0 0 0.25rem #E0B394;
 }
 
 .btn-primary:active:focus {
-  background-color: #a57b32;
+  background-color: #BA7643;
   font-weight: 300;
-  box-shadow: 0 0 0 0.25rem hsla(38, 59%, 52%, 0.634);
+  box-shadow: 0 0 0 0.25rem #E0B394;
 }
 
 /* --------- NavBar ---------- */
@@ -237,12 +237,12 @@ li {
 }
 
 .item-name-link:hover {
-  color: #cd973d;
+  color: #C47F43;
   font-weight: 600;
 }
 
 .item-name-link:focus {
-  color: #a57b32;
+  color: #BA7643;
   font-weight: 600;
 }
 
@@ -330,7 +330,7 @@ li {
 }
 
 .shop-by-categories-button {
-  background-color: #cd973d;
+  background-color: #C47F43;
   border: none;
   border-radius: 0;
   font-family: Outfit;
@@ -480,8 +480,8 @@ li {
 
 .size-selection-button:hover {
   color: white;
-  border-color: #cd973d;
-  background-color: #cd973d;
+  border-color: #C47F43;
+  background-color: #C47F43;
 }
 
 .btn-check:active {
@@ -517,7 +517,7 @@ li {
 }
 
 .add-to-cart-button {
-  background-color: #cd973d;
+  background-color: #C47F43;
   border: none;
   border-radius: 0;
   font-family: Outfit;

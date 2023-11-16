@@ -3,7 +3,7 @@ import React from "react";
 function ProductFeatures() {
     return (
         <div>
-            <h5>Features</h5>
+            <h4>Features</h4>
             <ul>
                 <li>Cras ornare tristique elit.</li>
                 <li>Vivamus vestibulum ntulla nec ante.</li>

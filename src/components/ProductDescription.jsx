@@ -3,7 +3,7 @@ import React from "react";
 function ProductDescription() {
     return (
         <div>
-            <h5>Product Description</h5>
+            <h4>Product Description</h4>
             <ul className="product-description">
                 <li>Lorem ipsum dolor sit amet, consectetuer adipiscing.</li>
                 <li>Aliquam tincidunt mauris eu risus.</li>
