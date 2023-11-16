@@ -1,5 +1,4 @@
 import React from "react";
-import product1HoverImage from '../assets/images/product_1_hover.jpg';
 
 function CartItemInfo({ item }) {
     // const { name, size, pricing, imgHoverURL, imgURL } = item;

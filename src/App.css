@@ -734,6 +734,11 @@ li {
   margin-bottom: 25px;
 }
 
+.empty-cart-image-container {
+  width: 70%;
+  margin: 0px auto;
+}
+
 .check-out-button {
   width: 200px;
 }

@@ -3,6 +3,7 @@ import { useCart, useDispatchCart } from '../CartContext';
 import CartTableHeader from "./CartTableHeader";
 import CartTableRow from "./CartTableRow";
 import CartTableFooter from "./CartTableFooter";
+import EmptyCart from '../assets/images/empty_cart.jpg';
 
 function Cart() {
     const cartItems = useCart();
@@ -20,16 +21,28 @@ function Cart() {
 
     return (
         <div className="cart">
-            <h2>Shopping Cart</h2>
-            <div className="cart-table">
-                <CartTableHeader></CartTableHeader>
+            {cartItems.length === 0 ? (
+                <div>
+                    <h2>Cart is empty.</h2>
+                    <div className="row empty-cart-image-container" >
+                        <img src={EmptyCart}></img>
+                    </div>
+                </div>
+            ) : (
+                <div>
+                    <h2>Shopping Cart</h2>
+                    <div className="cart-table">
+                        <CartTableHeader></CartTableHeader>
 
-                {cartItems.map((item) => (
-                    <CartTableRow item={item} />
-                ))}
+                        {cartItems.map((item) => (
+                            <CartTableRow item={item} />
+                        ))}
 
-                <CartTableFooter totalPrice={calculateTotalPrice(cartItems)}></CartTableFooter>
-            </div>
+                        <CartTableFooter totalPrice={calculateTotalPrice(cartItems)}></CartTableFooter>
+                    </div>
+                </div>
+            )}
+
         </div>
     );
 }
