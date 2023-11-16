@@ -34,17 +34,14 @@ function Navbar() {
                                 <li><a className="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/cart">CART(0)</a>
-                        </li>
                         {/* <li className="nav-item">
                             <a className="nav-link disabled">Disabled</a>
                         </li> */}
                     </ul>
 
-                    {/* <ul className="navbar-nav">
+                    <ul className="navbar-nav">
                         <NavbarCart></NavbarCart>
-                    </ul> */}
+                    </ul>
 
                     {/* <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
