@@ -32,16 +32,14 @@ function Navbar() {
                                 COLLECTIONS
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="/contemporaryCollection">Contemporary Collection</a></li>
-                                <li><a className="dropdown-item" href="heritagecollection">Heritage Collection</a></li>
 
-                                {/* {uniqueCollections.map(collection => (
+                                {uniqueCollections.map(collection => (
                                     <li key={collection}>
                                         <a className="dropdown-item" href={`/${collection.toLowerCase().replace(/\s+/g, '')}`}>
                                             {collection}
                                         </a>
                                     </li>
-                                ))} */}
+                                ))}
                                 
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="#">Something else here</a></li>
