@@ -11,9 +11,6 @@ function CartTableRow({ item }) {
                 <div className="col-6 cart-item-info">
                     <CartItemInfo item={item}></CartItemInfo>
                 </div>
-                {/* <div className="col-4 cart-adjust-quantity-button">
-                    {item.quantity}
-                </div> */}
                 <div className="col-4 cart-adjust-quantity-button">
                     <UpdateCartItemQuantity item={item}></UpdateCartItemQuantity>
                 </div>

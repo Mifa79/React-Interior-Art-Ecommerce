@@ -10,6 +10,8 @@ function ProductSelectionToCart(props) {
         id: props.id,
         name: props.name,
         pricing: props.pricing,
+        imgURL: props.imgURL,
+        imgHoverURL: props.imgHoverURL,
         quantity: 1,
     });
 
@@ -18,6 +20,8 @@ function ProductSelectionToCart(props) {
             id: props.id,
             name: props.name,
             pricing: props.pricing,
+            imgURL: props.imgURL,
+            imgHoverURL: props.imgHoverURL,
             quantity: newQuantity,
         })
     };

@@ -22,6 +22,8 @@ function ProductDetailsInfos(props) {
                 artist={props.artist}
                 collection={props.collection}
                 pricing={props.pricing}
+                imgURL={props.imgURL}
+                imgHoverURL={props.imgHoverURL}
             />
             <ThinHorizontalLine></ThinHorizontalLine>
             <ProductDescription></ProductDescription>
