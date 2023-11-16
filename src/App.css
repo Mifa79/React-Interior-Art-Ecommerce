@@ -650,7 +650,7 @@ li {
   width: 40%;
   padding-left: 0;
   display: inline-block;
-  margin-left: 0;
+  margin-left: -65px;
 }
 
 .cart-table-product-image {
