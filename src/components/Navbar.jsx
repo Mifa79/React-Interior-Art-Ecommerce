@@ -28,8 +28,8 @@ function Navbar() {
                                 COLLECTIONS
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="/signaturecollection">Signature Collection</a></li>
-                                <li><a className="dropdown-item" href="postercollection">Poster Collection</a></li>
+                                <li><a className="dropdown-item" href="/signaturecollection">Contemporary Collection</a></li>
+                                <li><a className="dropdown-item" href="postercollection">Heritage Collection</a></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="#">Something else here</a></li>
                             </ul>
