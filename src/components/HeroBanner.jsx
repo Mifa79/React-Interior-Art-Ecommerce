@@ -6,7 +6,7 @@ import ThinHorizontalLine from "./ThinHorizontalLine";
 function HeroBanner() {
     return (
         <div id="carouselExampleControls" className="carousel-slide" data-bs-ride="carousel">
-            <div className="row">
+            <div className="row hero-banner">
                 <div className="hero-text-banner">
                     <div className="hero-text-container">
                         <h1>Elevate Your Space with Stunning Wall Art</h1>
