@@ -480,11 +480,11 @@ li {
   align-items: center;
   padding-left: 30px;
   margin: 0;
-
+  flex-wrap: wrap;
 }
 
 .copyright-container {
-  width: 50%;
+  width: 55%;
   text-align: left;
 }
 
@@ -494,10 +494,48 @@ li {
 }
 
 .social-media-container {
-  width: 50%;
+  width: 45%;
   text-align: right;
 }
 
+@media (max-width: 800px) {
+  
+  .footer-nav {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .company-info {
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 30px;
+  }
+
+  .copyright-social-media {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .copyright-social-media {
+    height: 120px;
+    padding-left: 0;
+  }
+
+  .copyright-container {
+    width: 100%;
+    order: 2;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+
+  .social-media-container {
+    width: 100%;
+    order: 1;
+    text-align: center;
+    margin-top: 22px;
+  }
+}
 
 /* --------- Page 2 - All Products ---------- */
 
