@@ -478,7 +478,7 @@ li {
 /* --------- Page 4 - Product Details ---------- */
 
 .product-details {
-  padding: 80px 160px;
+  padding: 80px 0px 80px 100px;
 }
 
 .carousel-inner {
@@ -516,7 +516,7 @@ li {
 
 .product-infos {
   text-align: left;
-  padding: 0px 50px;
+  padding: 0px 0px 0px 50px;
 }
 
 .pricing-value {
@@ -608,13 +608,14 @@ li {
 }
 
 .add-to-cart-button {
+  width: 100%;
   background-color: #C47F43;
   border: none;
   border-radius: 0;
   font-family: Outfit;
   font-weight: 300;
   letter-spacing: 2px;
-  padding: 10px 84px;
+  padding: 10px 10px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
