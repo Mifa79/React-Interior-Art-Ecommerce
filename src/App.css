@@ -126,7 +126,6 @@ li {
 }
 
 /* --------- NavBar ---------- */
-
 .navbar {
   position: -webkit-sticky;
   position: sticky;
@@ -155,6 +154,7 @@ li {
   letter-spacing: normal;
   color: #495057;
 }
+
 
 /* --------- Page 1 - Home Page ---------- */
 
@@ -478,7 +478,7 @@ li {
 /* --------- Page 4 - Product Details ---------- */
 
 .product-details {
-  padding: 80px 0px 80px 100px;
+  padding: 80px 0px 80px 50px;
 }
 
 .carousel-inner {
@@ -516,12 +516,23 @@ li {
 
 .product-infos {
   text-align: left;
-  padding: 0px 0px 0px 50px;
+  padding: 0px 0px 0px 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .product-details {
-    padding: 40px 34px 40px 34px;
+    padding: 60px 0px 40px 36px;
+  }
+
+  .product-infos {
+    text-align: left;
+    padding: 0px 0px 0px 22px;
+  }
+}
+
+@media (max-width: 900px) {
+  .product-details {
+    padding: 40px 36px 40px 36px;
   }
 
   .carousel-slide {
@@ -531,7 +542,7 @@ li {
 
   .product-infos {
     width: 100%;
-    padding: 0px;
+    padding: 0px 10px;
   }
 }
 
