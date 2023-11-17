@@ -519,6 +519,22 @@ li {
   padding: 0px 0px 0px 50px;
 }
 
+@media (max-width: 600px) {
+  .product-details {
+    padding: 40px 34px 40px 34px;
+  }
+
+  .carousel-slide {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .product-infos {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
 .pricing-value {
   font-size: 24px;
   margin: 5px 0 20px;
