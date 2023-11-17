@@ -433,17 +433,11 @@ li {
   bottom: 0;
   width: 100%;
   margin-top: 80px;
-  padding: 0;
-}
-
-.social-media {
-  right: 0;
 }
 
 .footer-info-container {
-  padding: 25px;
+  padding: 40px 0px;
   background-color: #C47F43;
-
 }
 
 .footer-info {
@@ -459,16 +453,21 @@ li {
   font-family: Sacramento;
   font-size: 36px;
   color: #ffffff;
+  margin-right: 50px;
+  margin-left: 30px;
 }
 
 .company-brief {
   color: #ffffff;
+  margin-right: 50px;
+  margin-left: 30px;
 }
 
 .footer-nav {
   width: 30%;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 60px;
+  padding-right: 0;
 }
 
 .copyright-social-media {
@@ -478,14 +477,15 @@ li {
   color: #ffffff;
   display: flex;
   align-items: center;
-  padding-left: 30px;
-  margin: 0;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 .copyright-container {
   width: 55%;
   text-align: left;
+  padding-left: 50px;
+  padding-right: 0px;
 }
 
 .copyright {
@@ -496,23 +496,42 @@ li {
 .social-media-container {
   width: 45%;
   text-align: right;
+  padding-right: 30px;
 }
 
 @media (max-width: 800px) {
   
   .footer-nav {
     width: 100%;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .company-info {
     width: 100%;
-    padding-left: 20px;
+    padding-left: 10px;
     margin-top: 30px;
   }
 
+  .logo-footer {
+    margin-right: 30px;
+  }
+
+  .company-brief {
+    margin-right: 30px;
+  }
+
   .copyright-social-media {
-    padding-left: 20px;
+    padding-left: 0px;
+  }
+
+  .copyright-container {
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+
+  .social-media-container {
+    padding-right: 10px;
   }
 }
 
@@ -527,6 +546,7 @@ li {
     order: 2;
     text-align: center;
     margin-bottom: 22px;
+    padding-left: 0px;
   }
 
   .social-media-container {
