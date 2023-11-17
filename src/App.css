@@ -253,14 +253,21 @@ li {
   width: 100%;
 }
 
+/* @media (max-width: 700px) {
+  .popular-pick {
+    padding: 80px 0px;
+    margin: auto;
+  }
+} */
+
 @media (max-width: 580px) {
   .popular-pick {
-    padding: 80px 15px;
+    padding: 80px 40px;
     margin: auto;
   }
 
   .product-image {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -424,7 +431,8 @@ li {
 }
 
 .view-all-product-button {
-  padding: 10px 120px;
+  width: 100%;
+  padding: 10px 20px;
   margin-top: 60px;
 }
 
