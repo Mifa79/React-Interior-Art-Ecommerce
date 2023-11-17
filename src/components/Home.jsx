@@ -5,11 +5,12 @@ import ProductCategory from './ProductCategory';
 import Footer from './Footer';
 import categories from "../categories";
 
-function createProductCategory(category) {
+function createProductCategory(category, index) {
     return (
         <ProductCategory
             name={category.name}
             image={category.image}
+            reverseOrder={index % 2 !== 0}
         />
     );
 }
