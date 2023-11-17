@@ -392,6 +392,7 @@ li {
     height: 350px;
     display: block;
     padding-right: 0;
+    padding-left: 0;
     order: 1;
   }
 
