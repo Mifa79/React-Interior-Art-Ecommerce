@@ -2,13 +2,13 @@ import React from "react";
 
 function ProductCategory(props) {
     return (
-        <div className="product-category">
+        <div>
             {props.reverseOrder ? (
-                <div>
-                    <div className="category-image-container">
+                <div className="product-category">
+                    <div className="category-image-container-even">
                         <img className="category-image" src={props.image} />
                     </div>
-                    <div className="category-info-container">
+                    <div className="category-info-container-even">
                         <div className="category-info">
                             <div className="category-info-inner">
                                 <h2>{props.name}</h2>
@@ -19,8 +19,8 @@ function ProductCategory(props) {
                     </div>
                 </div>
             ) : (
-                <div>
-                    <div className="category-info-container">
+                <div className="product-category">
+                    <div className="category-info-container-odd">
                         <div className="category-info">
                             <div className="category-info-inner">
                                 <h2>{props.name}</h2>
@@ -29,7 +29,7 @@ function ProductCategory(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="category-image-container">
+                    <div className="category-image-container-odd">
                         <img className="category-image" src={props.image} />
                     </div>
                 </div>
