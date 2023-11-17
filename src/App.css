@@ -499,7 +499,7 @@ li {
   padding-right: 30px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   
   .footer-nav {
     width: 100%;
@@ -595,7 +595,14 @@ li {
 /* --------- Page 4 - Product Details ---------- */
 
 .product-details {
-  padding: 80px 0px 80px 50px;
+  width: 100%;
+  margin: 0px;
+  padding: 80px 50px 0px 50px;
+}
+
+.carousel-slide {
+  padding: 0px;
+  width: 60%;
 }
 
 .carousel-inner {
@@ -633,23 +640,28 @@ li {
 
 .product-infos {
   text-align: left;
-  padding: 0px 0px 0px 30px;
+  padding: 0px 0px 0px 50px;
+  width: 40%;
 }
 
 @media (max-width: 1000px) {
   .product-details {
-    padding: 60px 0px 40px 36px;
+    padding: 60px 50px 40px 50px;
   }
 
+  .carousel-slide {
+    width: 50%;
+  }
   .product-infos {
+    width: 50%;
     text-align: left;
-    padding: 0px 0px 0px 22px;
+    padding: 0px 0px 0px 40px;
   }
 }
 
 @media (max-width: 900px) {
   .product-details {
-    padding: 40px 36px 40px 36px;
+    padding: 40px 30px 40px 30px;
   }
 
   .carousel-slide {
@@ -659,7 +671,8 @@ li {
 
   .product-infos {
     width: 100%;
-    padding: 0px 10px;
+    text-align: left;
+    padding: 0px;
   }
 }
 
@@ -795,7 +808,7 @@ li {
 
 .cart {
   width: 100%;
-  padding: 80px 25px;
+  padding: 80px 40px;
   margin: auto;
   font-family: Outfit;
 }
@@ -857,7 +870,7 @@ li {
   padding-left: 25px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .cart {
     padding: 80px 15px;
   }

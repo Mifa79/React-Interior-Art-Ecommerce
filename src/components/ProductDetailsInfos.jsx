@@ -8,7 +8,7 @@ import ThinHorizontalLine from "./ThinHorizontalLine";
 
 function ProductDetailsInfos(props) {
     return (
-        <div className="col-4 product-infos">
+        <div className="product-infos">
             <ProductDetailsHeader
                 id={props.id}
                 name={props.name}

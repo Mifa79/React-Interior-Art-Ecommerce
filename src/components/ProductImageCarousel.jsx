@@ -5,7 +5,7 @@ import InRoomImage from "../assets/images/product_1_hover.webp";
 function ProductImageCarousel(props) {
 
     return (
-        <div id="carouselExampleControls" className="carousel-slide col-6" data-bs-ride="carousel">
+        <div id="carouselExampleControls" className="carousel-slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={props.imgURL} className="d-block w-100" alt="..." />
