@@ -3,19 +3,58 @@ import React from "react";
 function Footer() {
     return (
         <div className="footer">
-            <div className="footer-info row">
-                <div>
+            <footer className="text-center text-lg-start bg-light text-muted">
 
-                </div>
-                <div>
+                <section className="footer-info-container">
 
-                </div>
+                    <div className="row footer-info mt-3">
 
-            </div>
-            <div className="copyright-container">
-                <p className="copyright">© 2023 Interior Art. All rights reserved.</p>
+                        <div className="footer-nav">
+                            <h5>HOME</h5>
+                            <h5>ABOUT US</h5>
+                            <h5>ALL PRODUCTS</h5>
+                        </div>
 
-            </div>
+                        <div className="company-info">
+                            <p className="logo-footer">Budding Joy Studio</p>
+                            <p className="company-brief">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section className="row copyright-social-media">
+                    <div className="copyright-container">
+                        <p className="copyright">© 2023 Budding Joy Studio. All rights reserved.</p>
+                    </div>
+                    <div className="social-media-container">
+                        <a href="#" className="me-4 text-reset">
+                            <i className="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" className="me-4 text-reset">
+                            <i className="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" className="me-4 text-reset">
+                            <i className="fab fa-google"></i>
+                        </a>
+                        <a href="#" className="me-4 text-reset">
+                            <i className="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" className="me-4 text-reset">
+                            <i className="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" className="me-4 text-reset">
+                            <i className="fab fa-github"></i>
+                        </a>
+                    </div>
+                </section>
+
+            </footer>
 
         </div>
     );

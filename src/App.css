@@ -429,28 +429,73 @@ li {
 }
 
 .footer {
+  bottom: 0;
   width: 100%;
   margin-top: 80px;
+  padding: 0;
+}
+
+.social-media {
+  right: 0;
+}
+
+.footer-info-container {
+  padding: 25px;
+  background-color: #C47F43;
+
 }
 
 .footer-info {
   width: 100%;
-  height: 300px;
-  margin: 0;
+}
+
+.company-info {
+  width: 70%;
+  text-align: left;
+  /* padding-right: 80px; */
+}
+
+.logo-footer {
+  font-family: Sacramento;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.company-brief {
+  color: #ffffff;
+}
+
+.footer-nav {
+  width: 30%;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.copyright-social-media {
+  width: 100%;
+  height: 70px;
   background-color: #BA7643;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  margin: 0;
+
 }
 
 .copyright-container {
-  width: 100%;
-  height: 60px;
-  background-color: #C47F43;
+  width: 50%;
+  text-align: left;
 }
 
 .copyright {
   color: white;
-  padding-top: 19px;
-  font-family: Source Sans Pro;
-  font-size: 13px;
+  margin: 0;
+}
+
+.social-media-container {
+  width: 50%;
+  text-align: right;
 }
 
 

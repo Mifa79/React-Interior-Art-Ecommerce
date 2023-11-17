@@ -11,6 +11,7 @@ import AllProducts from "./AllProducts";
 import ContemporaryCollection from "./ContemporaryCollection";
 import HeritageCollection from "./HeritageCollection";
 import ProductDetails from "./ProductDetails";
+import Footer from './Footer';
 
 import {
   BrowserRouter as Router,
@@ -26,7 +27,7 @@ function App() {
     <div className="App">
     <Router>
       <Navbar></Navbar>
-      <Routes>
+      <Routes className="body">
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/allproducts" element={<AllProducts />} />
@@ -35,6 +36,7 @@ function App() {
         <Route path="/productdetails/:productID" element={<ProductDetails />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
+      <Footer></Footer>
     </Router>
   </div>
 

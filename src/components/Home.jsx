@@ -2,7 +2,6 @@ import React from "react";
 import HeroBanner from './HeroBanner';
 import PopularPicks from "./PopularPicks";
 import ProductCategory from './ProductCategory';
-import Footer from './Footer';
 import categories from "../categories";
 
 function createProductCategory(category, index) {
@@ -21,7 +20,6 @@ function Home() {
             <HeroBanner></HeroBanner>
             <PopularPicks></PopularPicks>
             {categories.map(createProductCategory)}
-            <Footer></Footer>
         </div>
     );
 }
