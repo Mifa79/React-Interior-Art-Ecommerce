@@ -428,19 +428,21 @@ li {
 }
 
 .footer {
+  width: 100%;
   margin-top: 80px;
 }
 
 .footer-info {
   width: 100%;
   height: 300px;
-  background-color: #212020;
+  margin: 0;
+  background-color: #BA7643;
 }
 
 .copyright-container {
   width: 100%;
   height: 60px;
-  background-color: #1a1a1a;
+  background-color: #C47F43;
 }
 
 .copyright {
@@ -466,7 +468,14 @@ li {
 }
 
 
-/* --------- Page 3 - Product Details ---------- */
+/* --------- Page 3 - About Us ---------- */
+
+.about-us {
+  padding: 80px 100px;
+}
+
+
+/* --------- Page 4 - Product Details ---------- */
 
 .product-details {
   padding: 80px 160px;
@@ -637,7 +646,7 @@ li {
 }
 
 
-/* --------- Page 4 - Shopping Cart ---------- */
+/* --------- Page 5 - Shopping Cart ---------- */
 
 .cart {
   width: 100%;
