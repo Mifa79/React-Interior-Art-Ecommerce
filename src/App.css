@@ -453,7 +453,6 @@ li {
 .company-info {
   width: 70%;
   text-align: left;
-  /* padding-right: 80px; */
 }
 
 .logo-footer {
@@ -541,17 +540,30 @@ li {
 /* --------- Page 2 - All Products ---------- */
 
 .all-products {
-  padding: 80px 100px;
+  padding: 80px 60px;
 }
 
 .contemporary-collection {
-  padding: 80px 100px;
+  padding: 80px 60px;
 }
 
 .heritage-collection {
-  padding: 80px 100px;
+  padding: 80px 60px;
 }
 
+@media (max-width: 800px) {
+  .all-products {
+    padding: 80px 40px;
+  }
+  
+  .contemporary-collection {
+    padding: 80px 40px;
+  }
+  
+  .heritage-collection {
+    padding: 80px 40px;
+  }
+}
 
 /* --------- Page 3 - About Us ---------- */
 
