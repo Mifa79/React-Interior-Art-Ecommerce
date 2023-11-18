@@ -163,6 +163,7 @@ li {
 }
 
 .hero-banner {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -560,28 +561,28 @@ li {
 /* --------- Page 2 - All Products ---------- */
 
 .all-products {
-  padding: 80px 60px;
+  padding: 80px 60px 0px;
 }
 
 .contemporary-collection {
-  padding: 80px 60px;
+  padding: 80px 60px 0px;
 }
 
 .heritage-collection {
-  padding: 80px 60px;
+  padding: 80px 60px 0px;
 }
 
 @media (max-width: 800px) {
   .all-products {
-    padding: 80px 40px;
+    padding: 80px 40px 0px;
   }
   
   .contemporary-collection {
-    padding: 80px 40px;
+    padding: 80px 40px 0px;
   }
   
   .heritage-collection {
-    padding: 80px 40px;
+    padding: 80px 40px 0px;
   }
 }
 
@@ -600,7 +601,7 @@ li {
   padding: 80px 50px 0px 50px;
 }
 
-.carousel-slide {
+.product-carousel-slide {
   padding: 0px;
   width: 60%;
 }
@@ -808,13 +809,13 @@ li {
 
 .cart {
   width: 100%;
-  padding: 80px 40px;
+  padding: 80px 40px 0px 40px;
   margin: auto;
   font-family: Outfit;
 }
 
 .cart-table {
-  margin: 80px 15px;
+  margin: 80px 15px 0px 15px;
 }
 
 .cart-table-heading {
