@@ -595,7 +595,7 @@ li {
 
 /* --------- Page 4 - Product Details ---------- */
 
-.product-details {
+/* .product-details {
   width: 100%;
   margin: 0px;
   padding: 80px 50px 0px 50px;
@@ -604,28 +604,73 @@ li {
 .product-carousel-slide {
   padding: 0px;
   width: 60%;
+  position: relative;
 }
 
-.carousel-inner {
-  vertical-align: middle;
-}
-
-.carousel-control-circle {
+.carousel-control-prev {
   width: 50px;
   height: 50px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
   border-radius: 25px;
   background-color: #b6b6b6;
-  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.carousel-control-prev-icon {
-  margin-top: 8px;
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #b6b6b6;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.carousel-control-next-icon {
-  margin-top: 8px;
+.carousel-control-prev {
+  left: 0; 
+}
+
+.carousel-control-next {
+  right: 0; 
+} */
+
+.product-details {
+  width: 100%;
+  margin: 0px;
+  padding: 80px 50px 0px 50px;
+}
+
+.carousel-container {
+  width: 60%;
+  padding: 0;
+  max-width: 900px;
+}
+
+.product-details-infos-container {
+  width: 40%;
+  padding: 0;
+  padding-left: 50px;
+}
+
+.carousel-control-prev {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #b6b6b6;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #b6b6b6;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .product-name {
@@ -641,39 +686,42 @@ li {
 
 .product-infos {
   text-align: left;
-  padding: 0px 0px 0px 50px;
-  width: 40%;
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1200px) {
   .product-details {
     padding: 60px 50px 40px 50px;
   }
 
-  .carousel-slide {
+  .carousel-container {
     width: 50%;
   }
-  .product-infos {
+  .product-details-infos-container {
     width: 50%;
     text-align: left;
     padding: 0px 0px 0px 40px;
+  }
+} */
+
+@media (max-width: 1000px) {
+  .product-details {
+    padding: 40px 50px 40px 50px;
+  }
+
+  .carousel-container {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .product-details-infos-container {
+    width: 100%;
+    padding: 0px;
   }
 }
 
 @media (max-width: 900px) {
   .product-details {
     padding: 40px 30px 40px 30px;
-  }
-
-  .carousel-slide {
-    width: 100%;
-    margin-bottom: 40px;
-  }
-
-  .product-infos {
-    width: 100%;
-    text-align: left;
-    padding: 0px;
   }
 }
 

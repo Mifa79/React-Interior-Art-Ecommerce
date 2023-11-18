@@ -33,13 +33,17 @@ function createProductDetailsInfos(product) {
 }
 
 function ProductDetails() {
-    const {productID} = useParams();
+    const { productID } = useParams();
     const product = products.filter(product => product.id === productID);
 
     return (
         <div className="row product-details">
-            {product.map(createProductImageCarousel)}
-            {product.map(createProductDetailsInfos)}
+            <div className="carousel-container">
+                {product.map(createProductImageCarousel)}
+            </div>
+            <div className="product-details-infos-container">
+                {product.map(createProductDetailsInfos)}
+            </div>
         </div>
     );
 }
