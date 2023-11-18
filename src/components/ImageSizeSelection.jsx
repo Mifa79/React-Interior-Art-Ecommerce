@@ -20,7 +20,7 @@ function ImageSizeSelection() {
                     checked={selectedSize === "18x24"}
                     onChange={handleSizeChange} 
                 />
-                <label className="btn btn-outline-primary size-selection-button" for="btnradio1">18" x 24"</label>
+                <label className="btn size-selection-button" for="btnradio1">18" x 24"</label>
             </div>
             <div className="size-2">
                 <input 
@@ -33,7 +33,7 @@ function ImageSizeSelection() {
                     checked={selectedSize === "16x20"}
                     onChange={handleSizeChange} 
                 />
-                <label className="btn btn-outline-primary size-selection-button" for="btnradio2">16" x 20"</label>
+                <label className="btn size-selection-button" for="btnradio2">16" x 20"</label>
             </div>
             <div className="size-3">
                 <input 
@@ -46,7 +46,7 @@ function ImageSizeSelection() {
                     checked={selectedSize === "24x32"}
                     onChange={handleSizeChange} 
                 />
-                <label className="btn btn-outline-primary size-selection-button" for="btnradio3">24" x 32"</label>
+                <label className="btn size-selection-button" for="btnradio3">24" x 32"</label>
             </div>
 
         </div>
