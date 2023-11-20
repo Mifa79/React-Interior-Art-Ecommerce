@@ -1,4 +1,5 @@
 import React from "react";
+import {Link } from "react-router-dom";
 
 function ProductCategory(props) {
     return (
@@ -13,7 +14,7 @@ function ProductCategory(props) {
                             <div className="category-info-inner">
                                 <h2>{props.name}</h2>
                                 <p className="category-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                <button class="btn btn-primary shop-by-categories-button" type="button">SHOP NOW</button>
+                                <Link to="allproducts" class="btn btn-primary shop-by-categories-button" type="button">SHOP NOW</Link>
                             </div>
                         </div>
                     </div>
@@ -25,7 +26,7 @@ function ProductCategory(props) {
                             <div className="category-info-inner">
                                 <h2>{props.name}</h2>
                                 <p className="category-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                <button class="btn btn-primary shop-by-categories-button" type="button">SHOP NOW</button>
+                                <Link to="allproducts" class="btn btn-primary shop-by-categories-button" type="button">SHOP NOW</Link>
                             </div>
                         </div>
                     </div>

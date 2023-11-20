@@ -23,7 +23,6 @@ function AllProducts() {
             <div className="row">
                 {products.map(createProductCard)}
             </div>
-            
         </div>
     );
 }
