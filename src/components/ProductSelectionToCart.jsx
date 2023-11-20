@@ -13,7 +13,6 @@ function getPriceForSize(product, selectedSize) {
 
 function ProductSelectionToCart(props) {
     const dispatch = useDispatchCart();
-    console.log("if availabe", props.options[0]);
     const [selectedSize, setSelectedSize] = useState(props.options[0].size);
     const [productToAdd, setProductToAdd] = useState({
         id: props.id,

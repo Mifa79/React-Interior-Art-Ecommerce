@@ -8,7 +8,6 @@ const CartReducer = (state, action) => {
         case 'ADD_TO_CART':
             // Check if the product is already in the cart
             const existingProduct = state.find(item => item.id === action.item.id && item.size === action.item.size);
-            console.log('existingProduct', existingProduct);
 
             if (existingProduct) {
                 // If it's already in the cart, update the quantity
