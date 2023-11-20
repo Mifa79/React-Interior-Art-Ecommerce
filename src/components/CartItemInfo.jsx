@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";    
 
 function CartItemInfo({ item }) {
     // const { name, size, pricing, imgHoverURL, imgURL } = item;
@@ -7,7 +8,9 @@ function CartItemInfo({ item }) {
     return (
         <div className="cart-item-info-container">
             <div className="cart-table-product-image-container">
-                <img src={item.imgURL} alt="product_image" className="cart-table-product-image"></img>
+                <Link to={"/productdetails/" + item.id}>
+                    <img src={item.imgURL} alt="product_image" className="cart-table-product-image"></img>
+                </Link>
             </div>
             <div className="cart-table-product-info">
                 <p className="cart-table-product-name"><a className="item-name-link" href={"productdetails/" + item.id}>{item.name}</a></p>
