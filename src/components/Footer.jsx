@@ -6,9 +6,9 @@ function Footer() {
 
             <section className="row footer-info-container">
                     <div className="footer-nav">
-                        <h5>HOME</h5>
-                        <h5>ABOUT US</h5>
-                        <h5>ALL PRODUCTS</h5>
+                        <h5><a className="footer-nav-item" href="/">HOME</a></h5>
+                        <h5><a className="footer-nav-item" href="/about">ABOUT US</a></h5>
+                        <h5><a className="footer-nav-item" href="/allproducts">ALL PRODUCTS</a></h5>
                     </div>
 
                     <div className="company-info">
