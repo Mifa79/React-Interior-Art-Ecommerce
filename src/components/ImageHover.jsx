@@ -13,7 +13,7 @@ function ImageHover(props) {
     };
 
     return (
-        <Link  to={"productdetails/" + props.id}>
+        <Link  to={"/productdetails/" + props.id}>
             {isHovering ? (
                 <img
                     className="product-image"
