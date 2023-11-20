@@ -139,9 +139,15 @@ li {
 }
 
 .logo {
+  text-decoration: none;
   font-family: Sacramento;
   font-size: 36px;
+  color: #000000;
   margin: 0 10px;
+}
+
+.logo:hover {
+  color: #000000;
 }
 
 .nav-item {

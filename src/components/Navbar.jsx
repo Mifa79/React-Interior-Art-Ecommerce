@@ -15,7 +15,7 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <p className="logo">Budding Joy Studio</p>
+                        <p><a className="logo" href="/">Budding Joy Studio</a></p>
                     </ul>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
@@ -41,8 +41,8 @@ function Navbar() {
                                     </li>
                                 ))}
                                 
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                {/* <li><hr className="dropdown-divider" /></li>
+                                <li><a className="dropdown-item" href="#">Something else here</a></li> */}
                             </ul>
                         </li>
                         {/* <li className="nav-item">
