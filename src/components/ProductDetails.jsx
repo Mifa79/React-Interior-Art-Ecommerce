@@ -27,9 +27,6 @@ function createProductDetailsInfos(product) {
             imgHoverURL={product.imgHoverURL}
             collection={product.collection}
             options={product.options}
-            // selectedSize={selectedSize}
-            // pricing={getPriceForSize(product, selectedSize)}
-            // handleSizeChange={handleSizeChange}
         />
     );
 }

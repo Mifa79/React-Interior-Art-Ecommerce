@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
-function ImageSizeSelection() {
+function ImageSizeSelection({ onSizeChange }) {
     const [selectedSize, setSelectedSize] = useState("16x20");
 
     const handleSizeChange = (event) => {
       setSelectedSize(event.target.value);
+      onSizeChange(event.target.value);
     };
 
     return (

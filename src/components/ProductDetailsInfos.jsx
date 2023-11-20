@@ -21,7 +21,6 @@ function ProductDetailsInfos(product) {
                 name={product.name}
                 artist={product.artist}
                 collection={product.collection}
-                // pricing={product.pricing}
                 imgURL={product.imgURL}
                 imgHoverURL={product.imgHoverURL}
                 options={product.options}

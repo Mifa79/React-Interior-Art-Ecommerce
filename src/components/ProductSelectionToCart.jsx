@@ -14,24 +14,25 @@ function getPriceForSize(product, selectedSize) {
 function ProductSelectionToCart(props) {
     const dispatch = useDispatchCart();
     console.log("if availabe", props.options[0]);
-    const [selectedSize, setSelectedSize] = useState(props.options[0]);
+    const [selectedSize, setSelectedSize] = useState(props.options[0].size);
     const [productToAdd, setProductToAdd] = useState({
         id: props.id,
         name: props.name,
         imgURL: props.imgURL,
         imgHoverURL: props.imgHoverURL,
-        quantity: 1,
         size: "16x20",
         pricing: getPriceForSize(props, "16x20"),
+        quantity: 1,
     });
 
     const handleQuantityChange = (newQuantity) => {
         setProductToAdd({
             id: props.id,
             name: props.name,
-            pricing: productToAdd.pricing,
             imgURL: props.imgURL,   
             imgHoverURL: props.imgHoverURL,
+            size: productToAdd.size,
+            pricing: productToAdd.pricing,
             quantity: newQuantity,
         })
     };
@@ -40,15 +41,23 @@ function ProductSelectionToCart(props) {
         console.log('productToAdd:', productToAdd);
     }, [productToAdd]);
 
-    // const handleSizeChange = (size) => {
-    //     setSelectedSize(size);
-    // };
+    const handleSizeChange = (newSize) => {
+        setProductToAdd({
+            id: props.id,
+            name: props.name,
+            imgURL: props.imgURL,   
+            imgHoverURL: props.imgHoverURL,
+            size: newSize,
+            pricing: getPriceForSize(props, newSize),
+            quantity: productToAdd.quantity,
+        })
+    };
 
 
     return (
         <div>
             <h4 className="select-image-size-title">Select image size:</h4>
-            <ImageSizeSelection></ImageSizeSelection>
+            <ImageSizeSelection onSizeChange={handleSizeChange}></ImageSizeSelection>
             <h4 className="pricing-value">${productToAdd.pricing}</h4>
             <h4 className="select-image-size-title">Select quantity:</h4>
             <div className="product-detail-quantity-selection">

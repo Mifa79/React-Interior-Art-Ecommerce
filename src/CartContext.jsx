@@ -7,13 +7,13 @@ const CartReducer = (state, action) => {
     switch (action.type) {
         case 'ADD_TO_CART':
             // Check if the product is already in the cart
-            const existingProduct = state.find(item => item.id === action.item.id);
+            const existingProduct = state.find(item => item.id === action.item.id && item.size === action.item.size);
             console.log('existingProduct', existingProduct);
 
             if (existingProduct) {
                 // If it's already in the cart, update the quantity
                 return state.map(item =>
-                    item.id === action.item.id
+                    item.id === action.item.id && item.size === action.item.size
                         ? { ...item, quantity: item.quantity + action.item.quantity }
                         : item
                 );
@@ -24,12 +24,12 @@ const CartReducer = (state, action) => {
 
         case 'INCREASE_ITEM_QUANTITY':
             // Check if the product is already in the cart
-            const existingItem = state.find(item => item.id === action.item.id);
+            const existingItem = state.find(item => item.id === action.item.id && item.size === action.item.size);
 
             if (existingItem) {
                 // If it's already in the cart, increase the quantity by 1
                 return state.map(item =>
-                    item.id === action.item.id
+                    item.id === action.item.id && item.size === action.item.size
                         ? { ...item, quantity: item.quantity + 1 }
                         : item
                 );
@@ -40,7 +40,7 @@ const CartReducer = (state, action) => {
 
         case 'DECREASE_ITEM_QUANTITY':
             return state.map(item =>
-                item.id === action.item.id
+                item.id === action.item.id && item.size === action.item.size
                     ? { ...item, quantity: item.quantity > 1 ? item.quantity - 1 : 0 }
                     : item
             ).filter(item => item.quantity > 0);
