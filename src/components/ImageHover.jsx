@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function ImageHover(props) {
     const [isHovering, setIsHovering] = useState(false);
@@ -12,7 +13,7 @@ function ImageHover(props) {
     };
 
     return (
-        <div>
+        <Link  to={"productdetails/" + props.id}>
             {isHovering ? (
                 <img
                     className="product-image"
@@ -30,7 +31,7 @@ function ImageHover(props) {
                     onMouseOut={handleMouseOut}
                 />
             )}
-        </div>
+        </Link>
     );
 }
 

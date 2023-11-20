@@ -6,6 +6,7 @@ function ProductCard(props) {
     return (
         <div className="product-item col-lg-3 col-md-4 col-sm-6">
             <ImageHover
+                id={props.id}
                 imgURL={props.imgURL}
                 imgHoverURL={props.imgHoverURL}
             />
