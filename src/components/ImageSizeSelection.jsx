@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function ImageSizeSelection() {
-    const [selectedSize, setSelectedSize] = useState("18x24");
+    const [selectedSize, setSelectedSize] = useState("16x20");
 
     const handleSizeChange = (event) => {
       setSelectedSize(event.target.value);
@@ -15,12 +15,12 @@ function ImageSizeSelection() {
                     className="btn-check" 
                     name="btnradio" 
                     id="btnradio1" 
-                    value="18x24"
+                    value="16x20"
                     autocomplete="off" 
-                    checked={selectedSize === "18x24"}
+                    checked={selectedSize === "16x20"}
                     onChange={handleSizeChange} 
                 />
-                <label className="btn size-selection-button" for="btnradio1">18" x 24"</label>
+                <label className="btn size-selection-button" for="btnradio1">16" x 20"</label>
             </div>
             <div className="size-2">
                 <input 
@@ -28,12 +28,12 @@ function ImageSizeSelection() {
                     className="btn-check" 
                     name="btnradio" 
                     id="btnradio2" 
-                    value="16x20"
+                    value="18x24"
                     autocomplete="off" 
-                    checked={selectedSize === "16x20"}
+                    checked={selectedSize === "18x24"}
                     onChange={handleSizeChange} 
                 />
-                <label className="btn size-selection-button" for="btnradio2">16" x 20"</label>
+                <label className="btn size-selection-button" for="btnradio2">18" x 24"</label>
             </div>
             <div className="size-3">
                 <input 

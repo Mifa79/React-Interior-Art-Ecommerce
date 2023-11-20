@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState} from "react";
 import ProductDetailsInfos from "./ProductDetailsInfos";
 import ProductImageCarousel from "./ProductImageCarousel";
 import products from "../products";
@@ -12,7 +12,6 @@ function createProductImageCarousel(product) {
             artist={product.artist}
             imgURL={product.imgURL}
             imgHoverURL={product.imgHoverURL}
-            pricing={product.pricing}
             collection={product.collection}
         />
     );
@@ -26,23 +25,26 @@ function createProductDetailsInfos(product) {
             artist={product.artist}
             imgURL={product.imgURL}
             imgHoverURL={product.imgHoverURL}
-            pricing={product.pricing}
             collection={product.collection}
+            options={product.options}
+            // selectedSize={selectedSize}
+            // pricing={getPriceForSize(product, selectedSize)}
+            // handleSizeChange={handleSizeChange}
         />
     );
 }
-
+  
 function ProductDetails() {
     const { productID } = useParams();
-    const product = products.filter(product => product.id === productID);
+    const product = products.find(product => product.id === productID);
 
     return (
         <div className="row product-details">
             <div className="carousel-container">
-                {product.map(createProductImageCarousel)}
+                {createProductImageCarousel(product)}  
             </div>
             <div className="product-details-infos-container">
-                {product.map(createProductDetailsInfos)}
+                {createProductDetailsInfos(product)}
             </div>
         </div>
     );

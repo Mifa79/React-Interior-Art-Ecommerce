@@ -6,24 +6,25 @@ import ProductSelectionToCart from "./ProductSelectionToCart";
 import ThinHorizontalLine from "./ThinHorizontalLine";
 
 
-function ProductDetailsInfos(props) {
+function ProductDetailsInfos(product) {
     return (
         <div className="product-infos">
             <ProductDetailsHeader
-                id={props.id}
-                name={props.name}
-                artist={props.artist}
-                collection={props.collection}
+                id={product.id}
+                name={product.name}
+                artist={product.artist}
+                collection={product.collection}
             />
             <ThinHorizontalLine></ThinHorizontalLine>
             <ProductSelectionToCart
-                id={props.id}
-                name={props.name}
-                artist={props.artist}
-                collection={props.collection}
-                pricing={props.pricing}
-                imgURL={props.imgURL}
-                imgHoverURL={props.imgHoverURL}
+                id={product.id}
+                name={product.name}
+                artist={product.artist}
+                collection={product.collection}
+                // pricing={product.pricing}
+                imgURL={product.imgURL}
+                imgHoverURL={product.imgHoverURL}
+                options={product.options}
             />
             <ThinHorizontalLine></ThinHorizontalLine>
             <ProductDescription></ProductDescription>
