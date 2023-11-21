@@ -780,6 +780,7 @@ li {
 
 .product-infos {
   text-align: left;
+  max-width: 600px;
 }
 
 @media (max-width: 1000px) {
@@ -796,11 +797,19 @@ li {
     width: 100%;
     padding: 0px;
   }
+
+  .product-infos {
+    max-width: 1000px;
+  }
 }
 
 @media (max-width: 900px) {
   .product-details {
     padding: 40px 30px 40px 30px;
+  }
+
+  .product-infos {
+    max-width: 900px;
   }
 }
 
