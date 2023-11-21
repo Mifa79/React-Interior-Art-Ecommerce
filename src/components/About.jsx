@@ -1,11 +1,14 @@
 import React from "react";
 import AboutUs1 from "../assets/images/about_us_1.jpg";
 import AboutUs2 from "../assets/images/about_us_2.jpg";
+import AboutUs from "../assets/images/about_us.jpg";
 
 function About() {
     return (
         <div className="about-us">
-            <h2>About Us</h2>
+            <div className="about-us-page-title-container">
+                <h2 className="about-us-page-title">About Us</h2>
+            </div>
             <div className="row about-us-content">
                 <div className="about-image-container">
                     <img className="about-us-image" src={AboutUs1} />
