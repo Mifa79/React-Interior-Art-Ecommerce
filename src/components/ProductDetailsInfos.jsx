@@ -23,6 +23,7 @@ function ProductDetailsInfos(product) {
                 collection={product.collection}
                 imgURL={product.imgURL}
                 imgHoverURL={product.imgHoverURL}
+                thumbnail={product.thumbnail}
                 options={product.options}
             />
             <ThinHorizontalLine></ThinHorizontalLine>

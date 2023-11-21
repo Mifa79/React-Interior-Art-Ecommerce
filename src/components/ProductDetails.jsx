@@ -25,6 +25,7 @@ function createProductDetailsInfos(product) {
             artist={product.artist}
             imgURL={product.imgURL}
             imgHoverURL={product.imgHoverURL}
+            thumbnail={product.thumbnail}
             collection={product.collection}
             options={product.options}
         />
