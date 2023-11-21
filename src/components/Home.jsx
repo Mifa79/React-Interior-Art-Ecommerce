@@ -9,6 +9,7 @@ function createProductCategory(category, index) {
         <ProductCategory
             name={category.name}
             image={category.image}
+            urlValue={category.urlValue}
             reverseOrder={index % 2 !== 0}
         />
     );

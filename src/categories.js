@@ -6,11 +6,13 @@ const categories = [
         id: "CC",
         name: "Contemporary Collection",
         image: contemporaryCollectionImage,
+        urlValue: "contemporarycollection",
     },
     {
         id: "HC", 
         name: "Heritage Collection",
         image: heritageCollectionImage,
+        urlValue: "heritagecollection",
     }
 ]
 
