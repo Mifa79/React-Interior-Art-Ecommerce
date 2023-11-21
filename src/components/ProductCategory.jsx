@@ -33,7 +33,7 @@ function ProductCategory(props) {
                     <div className="category-image-container-odd">
                         <img className="category-image" src={props.image} />
                     </div>
-                </div>
+                </div>  
             )}
         </div>
     );
