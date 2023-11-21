@@ -437,7 +437,7 @@ li {
 }
 
 .footer {
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   margin-top: 80px;
   position: relative;
@@ -588,10 +588,12 @@ li {
 
 .contemporary-collection {
   padding: 80px 60px 0px;
+  min-height: 800px;
 }
 
 .heritage-collection {
   padding: 80px 60px 0px;
+  min-height: 800px;
 }
 
 @media (max-width: 800px) {
