@@ -13,7 +13,15 @@
     import product7Image from './assets/images/product_7.jpg';
     import product7HoverImage from './assets/images/product_7_hover.jpg';
     import product8Image from './assets/images/product_8.jpg';
-    import product8HoverImage from './assets/images/product_8_hover.jpg';
+    import product8HoverImage from './assets/images/product_8_hover.jpg';   
+    import product1Thumbnail from './assets/images/product_1_thumbnail.jpg';
+    import product2Thumbnail from './assets/images/product_2_thumbnail.jpg';
+    import product3Thumbnail from './assets/images/product_3_thumbnail.jpg';
+    import product4Thumbnail from './assets/images/product_4_thumbnail.jpg';
+    import product5Thumbnail from './assets/images/product_5_thumbnail.jpg';
+    import product6Thumbnail from './assets/images/product_6_thumbnail.jpg';
+    import product7Thumbnail from './assets/images/product_7_thumbnail.jpg';
+    import product8Thumbnail from './assets/images/product_8_thumbnail.jpg';
 
 
     const products = [
@@ -23,6 +31,7 @@
             artist: "James Madison",
             imgURL: product1Image,
             imgHoverURL: product1HoverImage,
+            thumbnail: product1Thumbnail,
             pricing: "26",
             collection: "Contemporary Collection",
             options: [
@@ -37,6 +46,7 @@
             artist: "Leonardo da Vinci",
             imgURL: product2Image,
             imgHoverURL: product2HoverImage,
+            thumbnail: product2Thumbnail,
             pricing: "25",
             collection: "Heritage Collection",
             options: [
@@ -51,6 +61,7 @@
             artist: "Daryl Han",
             imgURL: product3Image,
             imgHoverURL: product3HoverImage,
+            thumbnail: product3Thumbnail,
             pricing: "24",
             collection: "Contemporary Collection",
             options: [
@@ -65,6 +76,7 @@
             artist: "Gustav Klimt",
             imgURL: product4Image,
             imgHoverURL: product4HoverImage,
+            thumbnail: product4Thumbnail,
             pricing: "25",
             collection: "Heritage Collection",
             options: [
@@ -79,6 +91,7 @@
             artist: "Vincent van Gogh",
             imgURL: product5Image,
             imgHoverURL: product5HoverImage,
+            thumbnail: product5Thumbnail,
             pricing: "25",
             collection: "Heritage Collection",
             options: [
@@ -93,6 +106,7 @@
             artist: "Watanabe Seitei",
             imgURL: product6Image,
             imgHoverURL: product6HoverImage,
+            thumbnail: product6Thumbnail,
             pricing: "25",
             collection: "Heritage Collection",
             options: [
@@ -107,6 +121,7 @@
             artist: "Sincerely Media",
             imgURL: product7Image,
             imgHoverURL: product7HoverImage,
+            thumbnail: product7Thumbnail,
             pricing: "25",
             collection: "Contemporary Collection",
             options: [
@@ -121,6 +136,7 @@
             artist: "Hector Falcon",
             imgURL: product8Image,
             imgHoverURL: product8HoverImage,
+            thumbnail: product8Thumbnail,
             pricing: "25",
             collection: "Contemporary Collection",
             options: [
