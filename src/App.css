@@ -1072,6 +1072,20 @@ li {
   margin: auto;
 }
 
+@media (max-width: 480px) {
+  .cart-item-info {
+    width: 40%;
+  }
+
+  .cart-adjust-quantity-button {
+    width: 35%;
+  }
+
+  .cart-item-total-pricing {
+    width: 25%;
+  }
+}
+
 .cart-table-footer {
   text-align: right;
 }
