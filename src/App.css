@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   display: grid;
+  width: 100%;
+  margin: 0px;
 }
 
 .App-logo {
@@ -172,6 +174,7 @@ li {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin: 0px;
 }
 
 .hero-text-banner {
@@ -444,8 +447,10 @@ li {
 }
 
 .footer-info-container {
+  width: 100%;
   padding: 40px 0px;
   background-color: #C47F43;
+  margin: 0px;
 }
 
 .footer-info {
@@ -545,6 +550,7 @@ li {
   }
 
   .copyright-social-media {
+    width: 100%;
     padding-left: 0px;
   }
 
@@ -560,6 +566,7 @@ li {
 
 @media (max-width: 700px) {
   .copyright-social-media {
+    width: 100%;
     height: 120px;
     padding-left: 0;
   }
