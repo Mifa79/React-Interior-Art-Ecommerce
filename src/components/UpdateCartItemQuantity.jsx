@@ -23,7 +23,7 @@ function UpdateCartItemQuantity({ item }) {
         <div className="adjust-quantity-button input-group">
             {item.quantity === 1 ? (
                 <button className="quantity-trash-button button-minus border rounded-circle icon-shape icon-sm" onClick={() => decreaseQuantity(item)}>
-                    <i  className="far fa-trash-alt"></i>
+                    <i  className="far fa-trash-alt quantity-trash-button-icon"></i>
                 </button>
             ) : (
                 <button className="quantity-minus-button button-minus border rounded-circle icon-shape icon-sm" onClick={() => decreaseQuantity(item)}>-</button>

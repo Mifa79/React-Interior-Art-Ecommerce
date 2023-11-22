@@ -98,6 +98,7 @@ li {
 
 .btn-primary {
   background-color: #C47F43;
+  -webkit-background-color: #C47F43;
   border: none;
   border-radius: 0;
   font-family: Outfit;
@@ -107,6 +108,7 @@ li {
 
 .btn-primary:hover {
   background-color: #BA7643;
+  -webkit-background-color: #BA7643;
   font-weight: 300;
 }
 
@@ -239,7 +241,7 @@ li {
 
 @media (max-width: 700px) {
   .hero-text-banner {
-    height: 400px;
+    height: 550px;
     width: 100%;
     order: 2;
   }
@@ -437,6 +439,7 @@ li {
   width: 100%;
   padding: 10px 20px;
   margin-top: 60px;
+  background-color: #BA7643;
 }
 
 .footer {
@@ -732,6 +735,10 @@ li {
   .about-text-container-inner {
     padding: 20px;
   }
+
+  .about-text-container {
+    height: 500px;
+  }
 }
 
 /* --------- Page 4 - Product Details ---------- */
@@ -885,11 +892,21 @@ li {
 }
 
 .quantity-minus-button {
+  color: #000000;
   margin: 0 auto 0 0;
 }
 
 .quantity-plus-button {
+  color: #000000;
   margin: 0 0 0 auto;
+}
+
+.quantity-trash-button {
+  color: #000000;
+}
+
+.quantity-trash-button-icon {
+  color: #000000;
 }
 
 .quantity-field {
