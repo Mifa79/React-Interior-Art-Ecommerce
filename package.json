@@ -2,7 +2,7 @@
   "name": "interior-art",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mifa79.github.io/React-Interior-Art-Ecommerce",
+  "homepage": "https://Mifa79.github.io/React-Interior-Art-Ecommerce",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
