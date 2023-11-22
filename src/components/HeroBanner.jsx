@@ -1,6 +1,5 @@
 import React from "react";
 import HeroImage from "../assets/images/hero.jpg";
-import HeroImageFull from "../assets/images/hero_full.jpg";
 import ThinHorizontalLine from "./ThinHorizontalLine";
 
 function HeroBanner() {

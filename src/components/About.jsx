@@ -1,7 +1,6 @@
 import React from "react";
 import AboutUs1 from "../assets/images/about_us_1.jpg";
 import AboutUs2 from "../assets/images/about_us_2.jpg";
-import AboutUs from "../assets/images/about_us.jpg";
 
 function About() {
     return (

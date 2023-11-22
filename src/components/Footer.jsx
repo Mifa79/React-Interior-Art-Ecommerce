@@ -26,23 +26,24 @@ function Footer() {
                     <p className="copyright">© 2023 Budding Joy Studio. All rights reserved.</p>
                 </div>
                 <div className="social-media-container">
-                    <a href="#" className="me-4 text-reset">
+                    {/* <a href="#" className="me-4 text-reset">
                         <i className="fab fa-facebook-f"></i>
                     </a>
                     <a href="#" className="me-4 text-reset">
                         <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" className="me-4 text-reset">
-                        <i className="fab fa-google"></i>
-                    </a>
-                    <a href="#" className="me-4 text-reset">
+                    </a> */}
+
+                    {/* <a href="#" className="me-4 text-reset">
                         <i className="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" className="me-4 text-reset">
+                    </a> */}
+                    <a href="https://www.linkedin.com/in/anhtonguyen/" className="me-4 text-reset">
                         <i className="fab fa-linkedin"></i>
                     </a>
-                    <a href="#" className="me-4 text-reset">
+                    <a href="https://github.com/Mifa79" className="me-4 text-reset">
                         <i className="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.behance.net/mifa79" className="me-4 text-reset">
+                        <i className="fas fa-palette"></i>
                     </a>
                 </div>
             </section>
